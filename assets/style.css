@@ -19,7 +19,41 @@ body {
 /* header */
 header {
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding:  1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    padding: 1em;
+    font-size: 100%;
+}
+
+/* Nav */
+nav {
+    
+}
+
+#pagelinks {
+    display: flex;
+    list-style-type: none;
+    padding-right: 4px;
+    letter-spacing: 2px;
+}
+
+#pagelinks>li {
+    padding: 1em;
+    font-size: 120%;
+}
+
+
+
 
 /* Main Content */
 main {
@@ -51,4 +85,16 @@ main {
 /* Footer */
 footer {
     background-color: coral;
+}
+
+#sociallinks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 150%;
+    padding: 1rem;
+}
+
+#sociallinks i {
+    color: blue;
 }
