@@ -3,39 +3,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+
+/* General style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #2e2b2b;
+}
+
 
 /* header */
-header{
+header {
     background-color: aqua;
 }
 
 /* Main Content */
-main{
+main {
     background-color: blueviolet;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
 }
 
-#hero{
+#hero {
     background-color: lightblue;
 }
 
-#reservebutton{
+#reservebutton {
     background-color: orangered;
 }
 
-#reviews{
+#reviews {
     background-color: orange;
 }
 
 
 
-#whyus{
+#whyus {
     background-color: darkgray;
 }
 
 
 
 /* Footer */
-    footer{
-        background-color: coral;
-    }
+footer {
+    background-color: coral;
+}
