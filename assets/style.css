@@ -1,0 +1,41 @@
+/*  wildcard selector to override default styles adds by the browser  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* header */
+header{
+    background-color: aqua;
+}
+
+/* Main Content */
+main{
+    background-color: blueviolet;
+}
+
+#hero{
+    background-color: lightblue;
+}
+
+#reservebutton{
+    background-color: orangered;
+}
+
+#reviews{
+    background-color: orange;
+}
+
+
+
+#whyus{
+    background-color: darkgray;
+}
+
+
+
+/* Footer */
+    footer{
+        background-color: coral;
+    }
