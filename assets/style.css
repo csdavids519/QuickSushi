@@ -16,7 +16,7 @@ body {
 }
 
 
-/* header */
+/* ----------------------- header ----------------------- */
 header {
     position: sticky;
     display: flex;
@@ -42,7 +42,7 @@ header {
 }
 
 
-/* Nav */
+/* ----------------------- Nav -----------------------  */
 /* Navbar dropdown toggle */
 nav {
     position: absolute;
@@ -51,6 +51,7 @@ nav {
     padding: 0 1em;
     background-color: red;
     box-shadow: 4px 4px 4px #3a3a3a;
+    display: none;
 }
 
 .pagelinks {
@@ -106,7 +107,7 @@ main {
 }
 
 
-/* Footer */
+/*-----------------------  Footer-----------------------  */
 footer {
     background-color: coral;
 }
