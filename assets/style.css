@@ -15,15 +15,21 @@ body {
     color: #2e2b2b;
 }
 
+
 /* header */
 header {
+    position: sticky;
+    display: flex;
     background-color: aqua;
+    justify-content: space-between;
     z-index: 99;
     width: 100%;
     text-decoration: none;
+    box-shadow: 0 2px 2px #3a3a3a;
+    align-items: baseline;
 }
 
-.div_hero a {
+.div_logo a {
     text-decoration: none;
     color: inherit;
     display: flex;
@@ -32,9 +38,18 @@ header {
     padding-top: 1em;
 }
 
+
 /* Nav */
+/* Navbar dropdown toggle */
+nav {
+    position: absolute;
+    top: 100%;
+    right: 4px;
+    padding: 0 1em;
+    background-color: red;
+}
+
 .pagelinks {
-    display: flex;
     list-style-type: none;
     letter-spacing: 2px;
     justify-content: center;
@@ -44,14 +59,28 @@ header {
     text-decoration: none;
     color: inherit;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 1em;
+    padding: .5em 1em;
     letter-spacing: 2px;
+    font-size: 90%;
 }
 
-/* Main Content */
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+/* ----------------------- Main Content ----------------------- */
 main {
+    margin-top: 100px;
     background-color: blueviolet;
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -87,6 +116,39 @@ footer {
     padding: 1rem;
 }
 
-#sociallinks i {
-    color: blue;
+.sociallinks i {
+    color: black
+}
+
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block; 
+        /* position: relative; */
+        /* box-shadow: none; */
+        /* width: fit-content; */
+        /* padding-right: 1rem; */
+    } 
+
+    .pagelinks {
+        display: flex;
+    }
+}
+
+    /* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+
+/* all other devices  */
+@media screen and (min-width: 1200px) {    
+
 }
