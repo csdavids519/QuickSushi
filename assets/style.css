@@ -20,22 +20,25 @@ body {
 header {
     position: sticky;
     display: flex;
-    background-color: aqua;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
     z-index: 99;
-    width: 100%;
-    text-decoration: none;
     box-shadow: 0 2px 2px #3a3a3a;
-    align-items: baseline;
+}
+
+.div_logo {
+    flex: 2;
+    /* padding: .5em 10em; */
 }
 
 .div_logo a {
     text-decoration: none;
     color: inherit;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 1em;
+}
+
+.div_logo a {
+    text-align: center;
 }
 
 
@@ -47,6 +50,7 @@ nav {
     right: 4px;
     padding: 0 1em;
     background-color: red;
+    box-shadow: 4px 4px 4px #3a3a3a;
 }
 
 .pagelinks {
@@ -80,7 +84,6 @@ nav {
 
 /* ----------------------- Main Content ----------------------- */
 main {
-    margin-top: 100px;
     background-color: blueviolet;
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -151,4 +154,3 @@ footer {
 /* all other devices  */
 @media screen and (min-width: 1200px) {    
 
-}
