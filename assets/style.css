@@ -19,17 +19,21 @@ body {
 /* ----------------------- header ----------------------- */
 header {
     position: sticky;
+    top: 0px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 2em;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
+    background-color: #ffffff
+    ;
 }
 
 .div_logo {
     flex: 2;
-    /* padding: .5em 10em; */
+    padding: .5em 10em;
 }
 
 .div_logo a {
