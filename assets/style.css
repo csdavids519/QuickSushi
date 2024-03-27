@@ -24,11 +24,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 2em;
+    padding: .5em 2em;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
-    background-color: #ffffff
-    ;
+    background-color: #ffffff;
 }
 
 .div_logo {
@@ -39,9 +38,6 @@ header {
 .div_logo a {
     text-decoration: none;
     color: inherit;
-}
-
-.div_logo a {
     text-align: center;
 }
 
