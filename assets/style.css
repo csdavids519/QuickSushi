@@ -33,6 +33,7 @@ header {
 .div_logo {
     flex: 2;
     padding: .5em 10em;
+    font-size: 120%;
 }
 
 .div_logo a {
@@ -49,7 +50,7 @@ nav {
     top: 100%;
     right: 4px;
     padding: 0 1em;
-    background-color: red;
+    background-color: #ffffff;
     box-shadow: 4px 4px 4px #3a3a3a;
     display: none;
 }
@@ -154,7 +155,7 @@ nav {
     position: absolute;
     right: 0;
     width: 100%;
-    background-color: red;
+    background-color: #ffffff;
     box-shadow: 0 2px 2px #3a3a3a;
 } 
 
