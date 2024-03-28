@@ -107,7 +107,7 @@ main {
 }
 
 
-/*-----------------------  Footer-----------------------  */
+/*----------------------- Footer -----------------------  */
 footer {
     background-color: coral;
 }
@@ -125,33 +125,73 @@ footer {
 }
 
 
+/*----------------------- Media query -----------------------  */
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+/*  Header  */
+
+/*  Nav   */
+
+/*  Main Content  */
+
+/* Footer */
 }
 
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block; 
-        /* position: relative; */
-        /* box-shadow: none; */
-        /* width: fit-content; */
-        /* padding-right: 1rem; */
-    } 
+/*  Header  */
 
-    .pagelinks {
-        display: flex;
-    }
+/*  Nav   */
+nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: red;
+    box-shadow: 0 2px 2px #3a3a3a;
+} 
+
+.pagelinks {
+    display: flex;
+}
+/*  Header  */
+
+/*  Nav   */
+
+/*  Main Content  */
+main {
+/* push main content below nav bar */
+position: relative;
+top: 33px;
+}
+
+
+/* Footer */
 }
 
     /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+/*  Header  */
+
+/*  Nav   */
+
+/*  Main Content  */
+
+/* Footer */
 
 }
 
 
 /* all other devices  */
 @media screen and (min-width: 1200px) {    
+/*  Header  */
 
+/*  Nav   */
+
+/*  Main Content  */
+
+/* Footer */
+}
