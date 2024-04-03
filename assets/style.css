@@ -123,6 +123,11 @@ main {
     min-width: 300px;
 }
 
+.reservebutton:hover {
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #2e2b2b;
+}
 
 /* hero div style */
 .div_heroaddress,
