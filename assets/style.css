@@ -22,7 +22,6 @@ header {
     top: 0px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: .5em 2em;
     z-index: 99;
@@ -32,14 +31,19 @@ header {
 
 .div_logo {
     flex: 2;
-    padding: .5em 10em;
+    display: flex;
     font-size: 120%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_logo{
+    padding: 0px 20px;
 }
 
 .div_logo a {
     text-decoration: none;
     color: inherit;
-    text-align: center;
 }
 
 
