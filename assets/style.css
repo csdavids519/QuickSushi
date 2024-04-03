@@ -107,6 +107,20 @@ main {
     background-size: cover;
 }
 
+/* reserve table button */
+.reservebutton{
+    position: absolute;
+    top: 250px;
+    left: 10em;
+    padding: 1.5em;
+    border-radius: 15%;
+    text-align: center;
+    text-decoration: none;
+    color: #2e2b2b;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+
 /* hero div style */
 .div_heroaddress,
 .div_herohours{
@@ -142,11 +156,6 @@ main {
     color: #ffffff;
     padding: 2px;
     font-size: 80%;
-}
-
-
-.reservebutton {
-    background-color: orangered;
 }
 
 .reviews {
@@ -220,7 +229,6 @@ position: relative;
 top: 33px;
 }
 
-
 .hero {
     /* set black background if image fails to load */
     background-color:#000000;
@@ -228,6 +236,13 @@ top: 33px;
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* reserve table button */
+.reservebutton{
+    top: 250px;
+    right: 10em;
+    left: 30em;
 }
 
 /* div hours position */
