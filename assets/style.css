@@ -162,6 +162,12 @@ nav {
 .pagelinks {
     display: flex;
 }
+
+.nav-toggle-label {
+    display: none;
+}
+
+
 /*  Header  */
 
 /*  Nav   */
@@ -195,8 +201,3 @@ top: 33px;
 /*  Header  */
 
 /*  Nav   */
-
-/*  Main Content  */
-
-/* Footer */
-}
