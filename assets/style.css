@@ -95,7 +95,7 @@ nav {
 main {
     /* background-color: blueviolet;
     /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
 }
 
 .hero {
@@ -171,16 +171,50 @@ main {
     background-image: url(../assets/images/Reviews.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    justify-content: space-evenly;
 }
 
+
+
 .whyus {
-    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 4px solid red;
+    /* height: 400px; */
+}
+
+
+.whyuscontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid green;
+    width: 100%;
+    margin: 25px;
+}
+
+.whyussize {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+}
+
+.whyustext{
+    width: 600px;
+}
+
+.whyuscontainerinvert{
+    flex-direction: row-reverse;
 }
 
 
 /*----------------------- Footer -----------------------  */
 footer {
+    position: relative;
     background-color: coral;
+    opacity: .2;
 }
 
 .sociallinks {
@@ -247,7 +281,8 @@ footer {
     .hero {
         /* set black background if image fails to load */
         background-color: #000000;
-        background-image: url(../assets/images/istockphoto-heroimage3.jpg);
+        /* background-image: url(../assets/images/istockphoto-heroimage3.jpg); */
+        background-image: url(../assets/images/resturantview.png);
         height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
