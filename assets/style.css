@@ -174,37 +174,25 @@ main {
     justify-content: space-evenly;
 }
 
-
-
-.whyus {
+/* why us section */
+.container-whyus {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    /* border: 4px solid red; */
-    /* height: 400px; */
     background-color: #2e2b2b;
 }
 
-
-.whyuscontainer{
+.small-container-whyus {
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    /* border: 4px solid green; */
+    text-align: right;
     width: 80%;
     margin-top: 20px;
-    /* padding: .5% 5%; */
     max-width: 1000px;
-}
-
-.whyuscontainer1{
     position: relative;
     z-index: 1;
-    /* background-color: #2e2b2b; */
 }
 
-.whyuscontainer1::before{
+.small-container-whyus::before {
     content: '';
     background: linear-gradient(to right, white, #2e2b2b);
     position: absolute;
@@ -216,43 +204,47 @@ main {
     margin: -4px;
 }
 
-
-.whyussize {
-    /* height: 400px; */
-    /* width: 200px; */
-    /* border: 4px solid black; */
-    overflow: hidden;
-
-    
+.small-container-whyus-invert {
+    flex-direction: row-reverse;
+    text-align: left;
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    max-width: 1000px;
+    position: relative;
+    z-index: 1;
 }
 
-.whyustext{
+.small-container-whyus-invert::before {
+    content: '';
+    background: linear-gradient(to left, white, #2e2b2b);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: -4px;
+}
+
+.whyus-text {
     flex: 1;
     color: #ffffff;
     background-color: #2e2b2b;
 }
 
-.whyusimage{
-    background-color: #2e2b2b;
-    padding: 10px;
-}
-
-.whyustext > p,
-.whyustext > h3{
+.whyus-text>p,
+.whyus-text>h3 {
     position: relative;
     top: 40%;
     margin: 0 20px;
 }
 
-.whyuscontainerstandard{
-    text-align: right;
+.whyus-image {
+    background-color: #2e2b2b;
+    padding: 5px;
+    overflow: hidden;
 }
-
-.whyuscontainerinvert{
-    flex-direction: row-reverse;
-    text-align: left;
-}
-
 
 /*----------------------- Footer -----------------------  */
 footer {
