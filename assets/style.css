@@ -167,7 +167,8 @@ main {
 }
 
 .reviews {
-    height: 400px;
+    min-height: 200px;
+    margin: 2%;
     background-image: url(../assets/images/Reviews.jpg);
     background-repeat: no-repeat;
     background-size: contain;
