@@ -105,22 +105,23 @@ main {
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 /* reserve table button */
 .reservebutton{
     position: absolute;
-    top: 250px;
-    left: 10em;
-    right: 10em;
-    padding: 1.5em;
+    top: 350px;
+    width: 200px;
+    padding: 1em;
     border-radius: 5%;
     text-align: center;
     text-decoration: none;
     color: #2e2b2b;
     background-color: #ffffff;
     text-transform: uppercase;
-    min-width: 300px;
+
 }
 
 .reservebutton:hover {
@@ -248,9 +249,10 @@ top: 33px;
 
 /* reserve table button */
 .reservebutton{
-    top: 250px;
-    left: auto;
-    right: 200px;
+    position: absolute;
+    /* top: 250px; */
+    /* left: auto; */
+    /* right: 200px; */
 }
 
 /* div hours position */
