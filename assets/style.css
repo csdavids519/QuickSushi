@@ -223,6 +223,10 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
 } 
 
+.activeselect:hover {
+    border-bottom: 4px solid #3a3a3a;
+}
+
 .pagelinks {
     display: flex;
 }
