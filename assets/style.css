@@ -37,7 +37,7 @@ header {
     justify-content: center;
 }
 
-.img_logo{
+.img_logo {
     padding: 0px 20px;
 }
 
@@ -95,12 +95,12 @@ nav {
 main {
     /* background-color: blueviolet;
     /* Enlarge main element to push footer down*/
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
 }
 
 .hero {
     /* set black background if image fails to load */
-    background-color:#000000;
+    background-color: #000000;
     background-image: url(../assets/images/pexels-cottonbro-studio-3298179.jpg);
     height: 600px;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ main {
 }
 
 /* reserve table button */
-.reservebutton{
+.reservebutton {
     position: absolute;
     top: 350px;
     width: 200px;
@@ -121,7 +121,6 @@ main {
     color: #2e2b2b;
     background-color: #ffffff;
     text-transform: uppercase;
-
 }
 
 .reservebutton:hover {
@@ -132,7 +131,7 @@ main {
 
 /* hero div style */
 .div_heroaddress,
-.div_herohours{
+.div_herohours {
     position: absolute;
     background-color: rgb(44, 44, 44, .75);
     text-align: center;
@@ -140,28 +139,28 @@ main {
 }
 
 /* div hours position */
-.div_herohours{
+.div_herohours {
     top: 500px;
     right: 20px;
 }
 
 /* div location position */
-.div_heroaddress{
+.div_heroaddress {
     top: 545px;
     left: 20px;
 }
 
 /* heading text style */
-.div_heroaddress > h3,
-.div_herohours > h3 {
+.div_heroaddress>h3,
+.div_herohours>h3 {
     margin-bottom: 4px;
 }
 
 /* common text style */
-.div_herohours > h3,
-.div_herohours > p,
-.div_heroaddress > h3,
-.div_heroaddress > p {
+.div_herohours>h3,
+.div_herohours>p,
+.div_heroaddress>h3,
+.div_heroaddress>p {
     color: #ffffff;
     padding: 2px;
     font-size: 80%;
@@ -202,107 +201,107 @@ footer {
 
 /* ----------Media query: large or landscape phones (576px and up) ----------*/
 @media screen and (min-width: 576px) {
-/*  Header  */
+    /*  Header  */
 
-/*  Nav   */
+    /*  Nav   */
 
-/*  Main Content  */
+    /*  Main Content  */
 
-/* Footer */
+    /* Footer */
 }
 
 
 /* ---------- Media query: tablets and larger (768px and up) ----------*/
 @media screen and (min-width: 768px) {
-/*  Header  */
+    /*  Header  */
 
-/*  Nav   */
-nav {
-    display: block;
-    position: absolute;
-    right: 0;
-    width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0 2px 2px #3a3a3a;
-} 
+    /*  Nav   */
+    nav {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 2px 2px #3a3a3a;
+    }
 
-.activeselect:hover {
-    border-bottom: 4px solid #3a3a3a;
-}
+    .activeselect:hover {
+        border-bottom: 4px solid #3a3a3a;
+    }
 
-.pagelinks {
-    display: flex;
-}
+    .pagelinks {
+        display: flex;
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    .nav-toggle-label {
+        display: none;
+    }
 
-/*  Main Content  */
-main {
-/* push main content below nav bar */
-position: relative;
-top: 33px;
-}
+    /*  Main Content  */
+    main {
+        /* push main content below nav bar */
+        position: relative;
+        top: 33px;
+    }
 
-.hero {
-    /* set black background if image fails to load */
-    background-color:#000000;
-    background-image: url(../assets/images/istockphoto-heroimage3.jpg);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    .hero {
+        /* set black background if image fails to load */
+        background-color: #000000;
+        background-image: url(../assets/images/istockphoto-heroimage3.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-/* reserve table button */
-.reservebutton{
-    position: absolute;
-    /* top: 250px; */
-    /* left: auto; */
-    /* right: 200px; */
-}
+    /* reserve table button */
+    .reservebutton {
+        position: absolute;
+        /* top: 250px; */
+        /* left: auto; */
+        /* right: 200px; */
+    }
 
-/* div hours position */
-.div_herohours{
-    top: 150px;
-    left: 50px;
-    width: 250px;
-}
+    /* div hours position */
+    .div_herohours {
+        top: 150px;
+        left: 50px;
+        width: 250px;
+    }
 
-/* div location position */
-.div_heroaddress{
-    top: 415px;
-    left: 50px;
-    width: 250px;
-}
+    /* div location position */
+    .div_heroaddress {
+        top: 415px;
+        left: 50px;
+        width: 250px;
+    }
 
-/* common text style */
-.div_herohours > h3,
-.div_herohours > p,
-.div_heroaddress > h3,
-.div_heroaddress > p {
-    font-size: 100%;
-}
+    /* common text style */
+    .div_herohours>h3,
+    .div_herohours>p,
+    .div_heroaddress>h3,
+    .div_heroaddress>p {
+        font-size: 100%;
+    }
 
 
-/* Footer */
+    /* Footer */
 }
 
 /* ---------- Large devices (laptops and desktops, 992px and up) ----------*/
 @media screen and (min-width: 992px) {
-/*  Header  */
+    /*  Header  */
 
-/*  Nav   */
+    /*  Nav   */
 
-/*  Main Content  */
+    /*  Main Content  */
 
-/* Footer */
+    /* Footer */
 
 }
 
 
 /* all other devices  */
-@media screen and (min-width: 1200px) {    
-/*  Header  */
+@media screen and (min-width: 1200px) {
+    /*  Header  */
 
-/*  
+    /*  
