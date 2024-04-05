@@ -167,46 +167,36 @@ main {
 }
 
 .reviews {
-    min-height: 200px;
-    padding: 2%;
-    /* background-image: url(../assets/images/Reviews.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: space-evenly; */
-    background-color: #2e2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background-color: #3a3a3a;
+}
+
+.reviews-container {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
-    flex-basis: 100%;
-    justify-content: space-between;
+    position: absolute;
+    margin: 2% 5%;
+    justify-content: center;
+    border: 2px solid white;
+    max-width: 1500px;
+    max-height: 400px;
+    background-color: #2e2b2b;
     gap: 10px;
+    overflow-y: hidden;
 }
 
-.reviews > img {
-    flex-grow: 1;
-    max-width: 200px;
+.reviews-container>img {
+    max-height: 100px;
+    box-shadow: 6px 6px 4px black;
+    border: 2px solid black;
 }
 
-.moveimg1 {
-    position: relative;
-    top: 20px;
-    left: 10px;
-    z-index: 1;
-}
-
-.moveimg2 {
-    position: relative;
-    bottom: 20px;
-    right: 10px;
-}
-
-.moveimg3 {
-    position: relative;
-    bottom: 30px;
-    left: 30px;
-}
-
-.reviews :hover {
+.review-img-transform:hover {
     transform: scale(2);
     z-index: 2;
     box-shadow: 4px 4px 4px black;
@@ -214,6 +204,10 @@ main {
     border-radius: 10%;
 }
 
+.img-main-reivew {
+    position: absolute;
+    top: 45%;
+}
 
 /* why us section */
 .container-whyus {
@@ -222,7 +216,8 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #2e2b2b;
-    padding: 70px 0;
+    /* add padding to keep footer at bottom */
+    padding-bottom: 70px;
 }
 
 .small-container-whyus {
