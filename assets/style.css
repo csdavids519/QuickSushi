@@ -169,12 +169,51 @@ main {
 .reviews {
     min-height: 200px;
     padding: 2%;
-    background-image: url(../assets/images/Reviews.jpg);
+    /* background-image: url(../assets/images/Reviews.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     background-color: #2e2b2b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100%;
+    justify-content: space-between;
+    gap: 10px;
 }
+
+.reviews > img {
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+.moveimg1 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+.moveimg2 {
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.moveimg3 {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+.reviews :hover {
+    transform: scale(2);
+    z-index: 2;
+    box-shadow: 4px 4px 4px black;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
 
 /* why us section */
 .container-whyus {
