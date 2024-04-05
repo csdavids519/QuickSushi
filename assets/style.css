@@ -168,32 +168,34 @@ main {
 
 .reviews {
     min-height: 200px;
-    margin: 2%;
+    padding: 2%;
     background-image: url(../assets/images/Reviews.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     justify-content: space-evenly;
+    background-color: #2e2b2b;
 }
 
 /* why us section */
 .container-whyus {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #2e2b2b;
+    padding: 70px 0;
 }
 
 .small-container-whyus {
     display: flex;
+    position: relative;
     text-align: right;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 15%;
     max-width: 1000px;
-    position: relative;
     z-index: 1;
     box-shadow: -10px 10px 14px red;
-    
 }
 
 .small-container-whyus::before {
@@ -209,14 +211,14 @@ main {
 }
 
 .small-container-whyus-invert {
+    position: relative;
+    display: flex;
     flex-direction: row-reverse;
     text-align: left;
-    display: flex;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 15%;
     max-width: 1000px;
-    position: relative;
     z-index: 1;
     box-shadow: 10px 10px 14px red;
 }
@@ -256,7 +258,8 @@ main {
 footer {
     position: relative;
     background-color: coral;
-    opacity: .2;
+
+    /* opacity: .2; */
 }
 
 .sociallinks {
@@ -324,7 +327,7 @@ footer {
         /* set black background if image fails to load */
         background-color: #000000;
         /* background-image: url(../assets/images/istockphoto-heroimage3.jpg); */
-        background-image: url(../assets/images/resturantview.png);
+        background-image: url(../assets/images/resturantview_dark_600px.png);
         height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -333,9 +336,7 @@ footer {
     /* reserve table button */
     .reservebutton {
         position: absolute;
-        /* top: 250px; */
-        /* left: auto; */
-        /* right: 200px; */
+        box-shadow: 8px 8px 4px black;
     }
 
     /* div hours position */
