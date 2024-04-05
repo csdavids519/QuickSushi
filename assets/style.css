@@ -188,9 +188,12 @@ main {
     text-align: right;
     width: 80%;
     margin-top: 20px;
+    margin-left: 15%;
     max-width: 1000px;
     position: relative;
     z-index: 1;
+    box-shadow: -10px 10px 14px red;
+    
 }
 
 .small-container-whyus::before {
@@ -211,9 +214,11 @@ main {
     display: flex;
     width: 80%;
     margin-top: 20px;
+    margin-right: 15%;
     max-width: 1000px;
     position: relative;
     z-index: 1;
+    box-shadow: 10px 10px 14px red;
 }
 
 .small-container-whyus-invert::before {
