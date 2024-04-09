@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+
 /*  wildcard selector to override default styles adds by the browser  */
 * {
     margin: 0;
@@ -26,7 +29,9 @@ header {
     padding: .5em 2em;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
-    background-color: #ffffff;
+    background-color: #2a9d8f;
+    font-family: 'Changa', sans-serif;
+    color: black;
 }
 
 .div_logo {
@@ -54,9 +59,10 @@ nav {
     top: 100%;
     right: 4px;
     padding: 0 1em;
-    background-color: #ffffff;
+    background-color: 	#2a9d8f;
     box-shadow: 4px 4px 4px #3a3a3a;
     display: none;
+    font-family: 'Changa', sans-serif;
 }
 
 .pagelinks {
@@ -100,7 +106,7 @@ main {
 
 .hero {
     /* set black background if image fails to load */
-    background-color: #000000;
+    background-color: 	#ce868a;
     background-image: url(../assets/images/pexels-cottonbro-studio-3298179.jpg);
     height: 600px;
     background-repeat: no-repeat;
@@ -119,14 +125,15 @@ main {
     text-align: center;
     text-decoration: none;
     color: #2e2b2b;
-    background-color: #ffffff;
+    background-color: #e9c46a;
     text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
 }
 
 .reservebutton:hover {
     color: #ffffff;
     font-weight: bolder;
-    background-color: #2e2b2b;
+    background-color: #f4a261;
 }
 
 /* hero div style */
@@ -166,14 +173,24 @@ main {
     font-size: 80%;
 }
 
+.reviews-header{
+    color: #ffffff;
+    background-color: #264653;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
 .reviews {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     position: relative;
     min-height: 500px;
+    height: 600px;
     width: 100%;
-    background-color: #3a3a3a;
+    background-color:  #264653;
+    padding: 20px;
 }
 
 .reviews-container {
@@ -182,12 +199,15 @@ main {
     position: absolute;
     margin: 2% 5%;
     justify-content: center;
-    border: 2px solid white;
+    border: 2px solid black;
+    padding: 10px;
     max-width: 1500px;
-    max-height: 400px;
-    background-color: #2e2b2b;
+    max-height: 500px;
+    background-color:  #2a9d8f;
+    box-shadow: 4px 4px 4px #2a9d8f;
     gap: 10px;
-    overflow-y: hidden;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 .reviews-container>img {
@@ -214,86 +234,105 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
+    /* width: 100%; */
     align-items: center;
-    background-color: #2e2b2b;
+    background-color:  	#264653;
     /* add padding to keep footer at bottom */
     padding-bottom: 70px;
+    font-family: 'Changa', sans-serif;
+}
+
+.whyus-header{
+    color: #ffffff;
+    background-color: #264653;
+    padding: 0px 20px;
 }
 
 .small-container-whyus {
     display: flex;
     position: relative;
-    text-align: right;
-    width: 80%;
-    margin-top: 40px;
-    margin-left: 15%;
-    max-width: 1000px;
-    z-index: 1;
-    box-shadow: -10px 10px 14px red;
-}
+    align-items: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
 
-.small-container-whyus::before {
-    content: '';
-    background: linear-gradient(to right, white, #2e2b2b);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    margin: -4px;
+    /* text-align: right; */
+    /* width: 700px; */
+    /* margin-top: 40px; */
+    /* margin-left: 15%; */
+    /* left: 20%; */
+    max-width: 1000px;
+    margin: 40px;
+    /* max-height: 200px; */
+    z-index: 1;
+    background-color: #e76f51;
+    box-shadow: -10px 8px 14px #f4a261;
+    border: 5px solid #e76f51;
+    border-radius: 15px;
 }
 
 .small-container-whyus-invert {
     position: relative;
     display: flex;
+    align-items: center;
+    /* flex-direction: column; */
     flex-direction: row-reverse;
     text-align: left;
-    width: 80%;
-    margin-top: 40px;
-    margin-right: 15%;
+    /* width: 700px; */
+    /* margin-top: 40px; */
+    margin: 40px;
+    /* right: 20%;  */
+    /* margin-right: 15%;*/
+    /* max-width: 600px; */
+    /* max-width: 60vw; */
     max-width: 1000px;
+    /* max-height: 200px; */
     z-index: 1;
-    box-shadow: 10px 10px 14px red;
-}
-
-.small-container-whyus-invert::before {
-    content: '';
-    background: linear-gradient(to left, white, #2e2b2b);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    margin: -4px;
+    background-color: #f4a261;
+    box-shadow: -10px 8px 14px#e76f51;
+    border: 5px solid #f4a261;
+    border-radius: 15px;
 }
 
 .whyus-text {
+    /* justify-content: space-around; */
     flex: 1;
-    color: #ffffff;
-    background-color: #2e2b2b;
+    color: #000000;
+    background-color: #e76f51;
+    /* flex-grow: 1; */
 }
 
-.whyus-text>p,
-.whyus-text>h3 {
-    position: relative;
-    top: 40%;
-    margin: 0 20px;
+.whyus-text-invert {
+    /* justify-content: space-around; */
+    flex: 1;
+    color: #000000;
+    background-color: #f4a261;
+    /* flex-grow: 1; */
+}
+
+.whyus-text> p,
+.whyus-text-invert> p {
+    margin: 5px 20px;
+    font-size: 90%;
+}
+
+.whyus-text> h2,
+.whyus-text-invert> h2 {
+    margin: 5px;
+    text-decoration: underline;
 }
 
 .whyus-image {
-    background-color: #2e2b2b;
-    padding: 5px;
+    /* background-color: #ffc59f; */
+    /* padding: 5px; */
+    max-width: 300px;
     overflow: hidden;
+    margin: 10px;
 }
 
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
-    background-color: coral;
-
-    /* opacity: .2; */
+    background-color: 	#2a9d8f
 }
 
 .sociallinks {
@@ -334,7 +373,7 @@ footer {
         position: absolute;
         right: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: 	#2a9d8f;
         box-shadow: 0 2px 2px #3a3a3a;
     }
 
