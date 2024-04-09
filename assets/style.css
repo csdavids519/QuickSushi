@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 
+/* 
+Color pallet:
+    #e76f51, #f4a261, #e9c46a, #2a9d8f, #264653
+*/
 
 /*  wildcard selector to override default styles adds by the browser  */
 * {
@@ -28,9 +32,9 @@ header {
     align-items: center;
     padding: .5em 2em;
     z-index: 99;
+    font-family: 'Changa', sans-serif;
     box-shadow: 0 2px 2px #3a3a3a;
     background-color: #2a9d8f;
-    font-family: 'Changa', sans-serif;
     color: black;
 }
 
@@ -59,10 +63,10 @@ nav {
     top: 100%;
     right: 4px;
     padding: 0 1em;
-    background-color: 	#2a9d8f;
-    box-shadow: 4px 4px 4px #3a3a3a;
     display: none;
     font-family: 'Changa', sans-serif;
+    background-color: #2a9d8f;
+    box-shadow: 4px 4px 4px #3a3a3a;
 }
 
 .pagelinks {
@@ -80,11 +84,11 @@ nav {
 }
 
 .active {
-    border-bottom: 4px solid #3a3a3a;
+    border-bottom: 4px solid #f4a261;
 }
 
 .activeselect:hover {
-    border-bottom: 4px solid #3a3a3a;
+    border-bottom: 4px solid #f4a261;
 }
 
 /* Nav toggle */
@@ -102,60 +106,55 @@ nav {
 
 
 /* ----------------------- Main Content ----------------------- */
-main {
-    /* background-color: blueviolet;
-    /* Enlarge main element to push footer down*/
-    /* flex: 1 0 auto; */
-}
-
 .hero {
-    /* set black background if image fails to load */
-    background-color: 	#ce868a;
+    display: flex;
+    justify-content: center;
     background-image: url(../assets/images/pexels-cottonbro-studio-3298179.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
+    /* set black background colour if image fails to load */
+    background-color: #ce868a;
 }
 
-/* reserve table button */
+/* ------ reserve table button ------ */
 .reservebutton {
     position: absolute;
     top: 350px;
     width: 200px;
     padding: 1em;
     border-radius: 5%;
+    text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
     text-align: center;
     text-decoration: none;
     color: #2e2b2b;
     background-color: #e9c46a;
-    text-transform: uppercase;
-    font-family: 'Changa', sans-serif;
 }
 
 .reservebutton:hover {
-    color: #ffffff;
     font-weight: bolder;
+    color: #ffffff;
     background-color: #f4a261;
 }
 
-/* hero div style */
+/* ------ hero div style ------ */
 .div_heroaddress,
 .div_herohours {
     position: absolute;
-    background-color: rgb(44, 44, 44, .75);
     text-align: center;
     border: 2px solid #ffffff;
+    /* background with transparency */
+    background-color: rgb(44, 44, 44, .75);
 }
 
-/* div hours position */
+/* div hours info position */
 .div_herohours {
     top: 500px;
     right: 20px;
 }
 
-/* div location position */
+/* div location info position */
 .div_heroaddress {
     top: 545px;
     left: 20px;
@@ -172,16 +171,19 @@ main {
 .div_herohours>p,
 .div_heroaddress>h3,
 .div_heroaddress>p {
-    color: #ffffff;
     padding: 2px;
     font-size: 80%;
+    color: #ffffff;
 }
 
-.reviews-header{
+
+/* ------ Review section ------ */
+.reviews-header {
     color: #ffffff;
-    background-color: #264653;
     padding-top: 20px;
     padding-left: 20px;
+    font-family: 'Changa', sans-serif;
+    background-color: #264653;
 }
 
 .reviews {
@@ -190,8 +192,8 @@ main {
     min-height: 500px;
     height: 600px;
     width: 100%;
-    background-color:  #264653;
     padding: 20px;
+    background-color: #264653;
 }
 
 .reviews-container {
@@ -204,7 +206,7 @@ main {
     padding: 10px;
     max-width: 1500px;
     max-height: 500px;
-    background-color:  #2a9d8f;
+    background-color: #2a9d8f;
     box-shadow: 4px 4px 4px #2a9d8f;
     gap: 10px;
     overflow: hidden;
@@ -218,34 +220,38 @@ main {
 }
 
 .review-img-transform:hover {
+    /* zoom on image and index to top */
     transform: scale(2);
+    /* move selected image to ceter index to top */
+    position: absolute;
+    top: 45%;
     z-index: 2;
     box-shadow: 4px 4px 4px black;
     border: 2px solid black;
     border-radius: 10%;
 }
 
+/* keep "main review" image top and center */
 .img-main-reivew {
     position: absolute;
     top: 45%;
 }
 
-/* why us section */
+/* ------   why us section ------ */
+.whyus-header {
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    padding: 0px 20px;
+    background-color: #264653;
+}
+
 .container-whyus {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:  	#264653;
-    /* add padding to keep footer at bottom */
-    padding-bottom: 70px;
     font-family: 'Changa', sans-serif;
-}
-
-.whyus-header{
-    color: #ffffff;
     background-color: #264653;
-    padding: 0px 20px;
 }
 
 .small-container-whyus {
@@ -255,10 +261,10 @@ main {
     max-width: 1000px;
     margin: 40px;
     z-index: 1;
-    background-color: #e76f51;
     box-shadow: -10px 8px 14px #f4a261;
     border: 5px solid #e76f51;
     border-radius: 15px;
+    background-color: #e76f51;
 }
 
 .small-container-whyus-invert {
@@ -270,10 +276,10 @@ main {
     margin: 40px;
     max-width: 1000px;
     z-index: 1;
-    background-color: #f4a261;
     box-shadow: -10px 8px 14px#e76f51;
     border: 5px solid #f4a261;
     border-radius: 15px;
+    background-color: #f4a261;
 }
 
 .whyus-text {
@@ -288,14 +294,14 @@ main {
     background-color: #f4a261;
 }
 
-.whyus-text> p,
-.whyus-text-invert> p {
+.whyus-text>p,
+.whyus-text-invert>p {
     margin: 5px 20px;
     font-size: 90%;
 }
 
-.whyus-text> h2,
-.whyus-text-invert> h2 {
+.whyus-text>h2,
+.whyus-text-invert>h2 {
     margin: 5px;
     text-decoration: underline;
 }
@@ -309,7 +315,7 @@ main {
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
-    background-color: 	#2a9d8f
+    background-color: #2a9d8f
 }
 
 .sociallinks {
@@ -350,12 +356,7 @@ footer {
         position: absolute;
         right: 0;
         width: 100%;
-        background-color: 	#2a9d8f;
-        box-shadow: 0 2px 2px #3a3a3a;
-    }
-
-    .activeselect:hover {
-        border-bottom: 4px solid #3a3a3a;
+        box-shadow: 0 2px 2px #f4a261;
     }
 
     .pagelinks {
@@ -370,7 +371,7 @@ footer {
     main {
         /* push main content below nav bar */
         position: relative;
-        top: 33px;
+        top: 10px; 
     }
 
     .hero {
@@ -432,4 +433,10 @@ footer {
 @media screen and (min-width: 1200px) {
     /*  Header  */
 
-    /*  
+    /*  Nav   */
+
+    /*  Main Content  */
+    
+    /* Footer */
+
+}
