@@ -83,6 +83,10 @@ nav {
     border-bottom: 4px solid #3a3a3a;
 }
 
+.activeselect:hover {
+    border-bottom: 4px solid #3a3a3a;
+}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -178,13 +182,10 @@ main {
     background-color: #264653;
     padding-top: 20px;
     padding-left: 20px;
-
 }
 
 .reviews {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     position: relative;
     min-height: 500px;
     height: 600px;
@@ -234,7 +235,6 @@ main {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     align-items: center;
     background-color:  	#264653;
     /* add padding to keep footer at bottom */
@@ -252,17 +252,8 @@ main {
     display: flex;
     position: relative;
     align-items: center;
-    /* flex-direction: column; */
-    /* align-items: center; */
-
-    /* text-align: right; */
-    /* width: 700px; */
-    /* margin-top: 40px; */
-    /* margin-left: 15%; */
-    /* left: 20%; */
     max-width: 1000px;
     margin: 40px;
-    /* max-height: 200px; */
     z-index: 1;
     background-color: #e76f51;
     box-shadow: -10px 8px 14px #f4a261;
@@ -274,18 +265,10 @@ main {
     position: relative;
     display: flex;
     align-items: center;
-    /* flex-direction: column; */
     flex-direction: row-reverse;
     text-align: left;
-    /* width: 700px; */
-    /* margin-top: 40px; */
     margin: 40px;
-    /* right: 20%;  */
-    /* margin-right: 15%;*/
-    /* max-width: 600px; */
-    /* max-width: 60vw; */
     max-width: 1000px;
-    /* max-height: 200px; */
     z-index: 1;
     background-color: #f4a261;
     box-shadow: -10px 8px 14px#e76f51;
@@ -294,19 +277,15 @@ main {
 }
 
 .whyus-text {
-    /* justify-content: space-around; */
     flex: 1;
-    color: #000000;
+    color: #ffffff;
     background-color: #e76f51;
-    /* flex-grow: 1; */
 }
 
 .whyus-text-invert {
-    /* justify-content: space-around; */
     flex: 1;
-    color: #000000;
+    color: #ffffff;
     background-color: #f4a261;
-    /* flex-grow: 1; */
 }
 
 .whyus-text> p,
@@ -322,8 +301,6 @@ main {
 }
 
 .whyus-image {
-    /* background-color: #ffc59f; */
-    /* padding: 5px; */
     max-width: 300px;
     overflow: hidden;
     margin: 10px;
