@@ -276,7 +276,7 @@ nav {
     margin: 40px;
     max-width: 1000px;
     z-index: 1;
-    box-shadow: -10px 8px 14px#e76f51;
+    box-shadow: 10px 8px 14px#e76f51;
     border: 5px solid #f4a261;
     border-radius: 15px;
     background-color: #f4a261;
@@ -436,7 +436,7 @@ footer {
     /*  Nav   */
 
     /*  Main Content  */
-    
+
     /* Footer */
 
 }
