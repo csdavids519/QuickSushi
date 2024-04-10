@@ -202,7 +202,6 @@ nav {
     margin: 2% 5%;
     justify-content: center;
     border: 2px solid black;
-    max-width: 1500px;
     gap: 10px;
     overflow: hidden;
     border-radius: 15px;
@@ -272,7 +271,6 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
-    /* flex-direction: row-reverse; --- use on large screen */
     flex-direction: column;
     text-align: left;
     margin: 40px;
@@ -357,6 +355,7 @@ footer {
         text-align: center;
         right: 60px;
         position: relative;
+        font-size: 150%;
     }
 
     /*  Nav   */
@@ -366,6 +365,7 @@ footer {
         right: 0;
         width: 100%;
         box-shadow: 0 2px 2px #f4a261;
+        font-size: 16px;
     }
 
     .pagelinks {
@@ -425,7 +425,7 @@ footer {
     /* ---- Reviews section ---- */
     .reviews-header,
     .whyus-header{
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .reviews-container>img {
@@ -436,13 +436,14 @@ footer {
         /* transform: scale(2); */
     }
 
+    .small-container-whyus {
+        flex-direction: row;
+    }
 
-
-
-
-
-
-
+    .small-container-whyus-invert {
+        flex-direction: row;
+        flex-direction: row-reverse;
+    }
 
 
     /* Footer */
