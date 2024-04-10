@@ -51,6 +51,7 @@ header {
 .div_logo>h1 {
     text-decoration: none;
     text-justify: center;
+
 }
 
 
@@ -350,6 +351,13 @@ footer {
 /* ---------- Media query: tablets and larger (768px and up) ----------*/
 @media screen and (min-width: 768px) {
     /*  Header  */
+
+    .div_logo>a {
+        flex: 2;
+        text-align: center;
+        right: 60px;
+        position: relative;
+    }
 
     /*  Nav   */
     nav {
