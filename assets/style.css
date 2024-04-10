@@ -105,9 +105,10 @@ nav {
 }
 
 /* ----------------------- Main Content ----------------------- */
-main{
+main {
     /* with empty main section - push footer to bottom */
     flex: 1 1 auto;
+    background-color: #264653;
 }
 
 
@@ -318,6 +319,29 @@ main{
     margin: 10px;
 }
 
+/* ----------------- Location page -------------- */
+.iframe-location-map {
+    /* position: absolute; */
+    width: 90vw;
+    min-height: 50vw;
+    margin: 5%;
+    background-color: #2a9d8f;
+}
+
+.div_location-address {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ffffff;
+    width: 90vw;
+    padding: 2%;
+    margin: 5%;
+    /* background with transparency */
+    background-color: rgb(44, 44, 44, .75);
+    color: #ffffff;
+}
+
+
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
@@ -429,7 +453,7 @@ footer {
 
     /* ---- Reviews section ---- */
     .reviews-header,
-    .whyus-header{
+    .whyus-header {
         font-size: 2em;
     }
 
