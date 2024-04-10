@@ -43,15 +43,16 @@ header {
     justify-content: space-between;
 }
 
-.div_logo > a {
+.div_logo>a {
     text-decoration: none;
     color: inherit;
 }
 
-.div_logo > h1 {
+.div_logo>h1 {
     text-decoration: none;
     text-justify: center;
 }
+
 
 /* ----------------------- Nav -----------------------  */
 /* Navbar dropdown toggle */
@@ -101,7 +102,6 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 
 /* ----------------------- Main Content ----------------------- */
 .hero {
@@ -156,6 +156,8 @@ nav {
 .div_heroaddress {
     top: 545px;
     left: 20px;
+    max-width: 25vw;
+    min-width: 120px;
 }
 
 /* heading text style */
@@ -372,7 +374,7 @@ footer {
     main {
         /* push main content below nav bar */
         position: relative;
-        top: 10px; 
+        top: 10px;
     }
 
     .hero {
