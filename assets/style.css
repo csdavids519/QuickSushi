@@ -190,39 +190,36 @@ nav {
     display: flex;
     position: relative;
     justify-items: center;
-    min-height: 500px;
-    height: 600px;
+    min-height: 300px;
     width: 100%;
-    padding: 20px;
     background-color: #264653;
 }
 
 .reviews-container {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     margin: 2% 5%;
     justify-content: center;
     border: 2px solid black;
-    padding: 10px;
     max-width: 1500px;
     max-height: 500px;
-    background-color: #2a9d8f;
-    box-shadow: 4px 4px 4px #2a9d8f;
     gap: 10px;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow: 4px 4px 4px #2a9d8f;
+    background-color: #2a9d8f;
 }
 
 .reviews-container>img {
     max-height: 100px;
+    max-width: 80px;
     box-shadow: 6px 6px 4px black;
     border: 2px solid black;
 }
 
 .review-img-transform:hover {
     /* zoom on image and index to top */
-    transform: scale(2);
+    transform: scale(120%);
     /* move selected image to ceter index to top */
     position: absolute;
     top: 45%;
@@ -230,6 +227,7 @@ nav {
     box-shadow: 4px 4px 4px black;
     border: 2px solid black;
     border-radius: 10%;
+    max-width: 80%;
 }
 
 /* keep "main review" image top and center */
