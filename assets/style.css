@@ -219,7 +219,7 @@ nav {
 
 .review-img-transform:hover {
     /* zoom on image and index to top */
-    transform: scale(120%);
+    transform: scale(250%);
     /* move selected image to ceter index to top */
     position: absolute;
     top: 45%;
@@ -227,7 +227,6 @@ nav {
     box-shadow: 4px 4px 4px black;
     border: 2px solid black;
     border-radius: 10%;
-    max-width: 80%;
 }
 
 /* keep "main review" image top and center */
@@ -369,13 +368,14 @@ footer {
         display: none;
     }
 
-    /*  Main Content  */
+    /* ---------- Main Content ----------  */
     main {
         /* push main content below nav bar */
         position: relative;
         top: 10px;
     }
 
+    /* ---- Hero image ---- */
     .hero {
         /* set black background if image fails to load */
         background-color: #000000;
@@ -413,6 +413,28 @@ footer {
     .div_heroaddress>p {
         font-size: 100%;
     }
+
+    /* ---- Reviews section ---- */
+    .reviews-header,
+    .whyus-header{
+        font-size: 1em;
+    }
+
+    .reviews-container>img {
+        max-width: none;
+    }
+
+    .review-img-transform:hover {
+        /* transform: scale(2); */
+    }
+
+
+
+
+
+
+
+
 
 
     /* Footer */
