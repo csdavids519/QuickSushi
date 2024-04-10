@@ -105,6 +105,12 @@ nav {
 }
 
 /* ----------------------- Main Content ----------------------- */
+main{
+    /* with empty main section - push footer to bottom */
+    flex: 1 1 auto;
+}
+
+
 .hero {
     display: flex;
     justify-content: center;
@@ -387,7 +393,6 @@ footer {
     .hero {
         /* set black background if image fails to load */
         background-color: #000000;
-        /* background-image: url(../assets/images/istockphoto-heroimage3.jpg); */
         background-image: url(../assets/images/resturantview_dark_600px.png);
         height: 600px;
         background-repeat: no-repeat;

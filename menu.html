@@ -22,26 +22,36 @@
     <!-- Header -->
     <header>
         <!-- Logo -->
-        <div class="div_hero">
-            <a href="index.html" are>
+        <div class="div_logo">
+            <img class="img_logo" src="assets/images/LogoImage_small.png" alt="Quick Sushi logo">
+            <a href="index.html" aria-label="link to move to the Home page">
                 <h1 class="logo">Quick Sushi</h1>
             </a>
-        </div>
 
-        <!-- Nav -->
-        <nav>
-            <ul class="pagelinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="reserve.html">Reserve Table</a></li>
-            </ul>
-        </nav>
+            <!-- check box for drop down link selection -->
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <!-- Nav -->
+            <nav>
+                <ul class="pagelinks">
+                    <li><a href="index.html" class="activeselect" aria-label="web link to move to the Home page">Home</a></li>
+                    <li><a href="location.html" class="activeselect"
+                            aria-label="web link to move to the Location page">Location</a></li>
+                    <li><a href="menu.html" class="active" aria-label="web link to move to the Menu page">Menu</a>
+                    </li>
+                    <li><a href="reserve.html" class="activeselect"
+                            aria-label="web link to move to the Reserve Table page">Reserve Table</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        MENU PAGE
+
     </main>
 
     <!-- Footer -->
@@ -64,4 +74,5 @@
 
 <!-- Font Awesome kit  -->
 <script src="https://kit.fontawesome.com/2123c73fde.js" crossorigin="anonymous"></script>
+
 </html>
