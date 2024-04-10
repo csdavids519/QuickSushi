@@ -202,7 +202,6 @@ nav {
     justify-content: center;
     border: 2px solid black;
     max-width: 1500px;
-    max-height: 500px;
     gap: 10px;
     overflow: hidden;
     border-radius: 15px;
@@ -213,6 +212,7 @@ nav {
 .reviews-container>img {
     max-height: 100px;
     max-width: 80px;
+    margin: 2px;
     box-shadow: 6px 6px 4px black;
     border: 2px solid black;
 }
