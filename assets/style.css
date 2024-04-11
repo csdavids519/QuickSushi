@@ -320,17 +320,23 @@ main {
 }
 
 /* ----------------- Location page -------------- */
+.location-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .iframe-location-map {
-    /* position: absolute; */
+    position: relative;
     width: 90vw;
-    min-height: 50vw;
-    margin: 5%;
-    background-color: #2a9d8f;
+    min-height: 30vw;
+    max-height: 40vh;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .div_location-address {
     position: relative;
-    align-items: center;
     text-align: center;
     border: 2px solid #ffffff;
     width: 90vw;
@@ -474,7 +480,6 @@ footer {
         flex-direction: row-reverse;
     }
 
-
     /* Footer */
 }
 
@@ -485,6 +490,35 @@ footer {
     /*  Nav   */
 
     /*  Main Content  */
+
+    /* ------  Location page ------ */
+    .location-container {
+        flex-direction: row;
+
+    }
+
+    .iframe-location-map {
+        margin-top: 5%;
+    }
+
+    .div_location-address {
+        top: 50%;
+        width: 40%;
+        min-width: 250px;
+        min-height: 30vw;
+        max-height: 40vh;
+        padding: 0;
+    }
+
+    .location-text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 80px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+
 
     /* Footer */
 
