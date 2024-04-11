@@ -347,44 +347,38 @@ main {
     color: #ffffff;
 }
 
-
 /* ------ Reserve Table page */
-.main-reserve{
+.main-reserve {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    font-family: 'Changa', sans-serif;
 }
 
-
-
-
-.div-reserve-form{
-    /* position: relative; */
-    /* top: 50vh; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* transform: translateY(-50%); */
+.div-reserve-form {
     background-color: #2a9d8f;
     padding: 10px;
     border-radius: 20px;
-    /* margin: 0% 5%; */
-    /* max-width: 1000px; */
+}
+
+.div-reserve-form > form > h2 {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid black;
+    background-color: #ffffff;
     border-radius: 20px;
     padding: 0 5px;
 }
 
-.booking-button{
-    /* display: flex inline; */
+.booking-button {
     width: 100%;
     justify-content: center;
     margin-top: 20px;
@@ -392,30 +386,33 @@ main {
     padding: 10px 20px;
     font-size: 100%;
     background-color: #e76f51;
-    color: #fafafa;
+    color: #ffffff;
     border-radius: 30px;
+    box-shadow: 2px 2px 4px black;
 }
 
-.div-radio-buttons{
+.div-radio-buttons {
     display: flex inline;
     justify-content: space-around;
     width: 100%;
+    color: ffffff;
 }
 
 
-.radio_label{
-padding: 4%;
-background-color: #e9c46a;
-border-radius: 40px;
-border: 2px solid black;
+.radio_label {
+    padding: 4%;
+    background-color: #e9c46a;
+    border-radius: 40px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px black;
 }
 
 
-.radio_input{
+.radio_input {
     display: none;
 }
 
-.radio_input:checked + .radio_label{
+.radio_input:checked+.radio_label {
     background-color: #f4a261;
 }
 
@@ -625,4 +622,3 @@ footer {
     /*  Main Content  */
 
     /* Footer */
-
