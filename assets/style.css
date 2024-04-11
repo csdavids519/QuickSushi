@@ -107,7 +107,7 @@ nav {
 /* ----------------------- Main Content ----------------------- */
 main {
     /* with empty main section - push footer to bottom */
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     background-color: #264653;
 }
 
@@ -348,6 +348,78 @@ main {
 }
 
 
+/* ------ Reserve Table page */
+.main-reserve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+
+.div-reserve-form{
+    /* position: relative; */
+    /* top: 50vh; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* transform: translateY(-50%); */
+    background-color: #2a9d8f;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin: 0% 5%; */
+    /* max-width: 1000px; */
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+.booking-button{
+    /* display: flex inline; */
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 100%;
+    background-color: #e76f51;
+    color: #fafafa;
+    border-radius: 30px;
+}
+
+.div-radio-buttons{
+    display: flex inline;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.radio_label{
+padding: 4%;
+background-color: #e9c46a;
+border-radius: 40px;
+border: 2px solid black;
+}
+
+
+.radio_input{
+    display: none;
+}
+
+.radio_input:checked + .radio_label{
+    background-color: #f4a261;
+}
+
+
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
@@ -520,6 +592,25 @@ footer {
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /* Footer */
 
 }
@@ -535,4 +626,3 @@ footer {
 
     /* Footer */
 
-}

@@ -37,7 +37,8 @@
             <!-- Nav -->
             <nav>
                 <ul class="pagelinks">
-                    <li><a href="index.html" class="activeselect" aria-label="web link to move to the Home page">Home</a></li>
+                    <li><a href="index.html" class="activeselect"
+                            aria-label="web link to move to the Home page">Home</a></li>
                     <li><a href="location.html" class="activeselect"
                             aria-label="web link to move to the Location page">Location</a></li>
                     <li><a href="menu.html" class="activeselect" aria-label="web link to move to the Menu page">Menu</a>
@@ -50,8 +51,36 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="main-reserve">
+        <div class="div-reserve-form">
+            <form class="booking-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Reserve your table here!</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="text-input" required>
+                <br>
+                <label for="date"><i class="fa-regular fa-calendar-days"></i> Date</label>
+                <input type="datetime" name="date" id="date" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
 
+
+                <div class="div-radio-buttons">
+
+                    <input class="radio_input" type="radio" name="prefered_table" value="booth" required  id="booth">
+                    <label class="radio_label" for="booth"><i class="fa-solid fa-chair"></i> Booth Table</label>
+
+                    <input class="radio_input" type="radio" name="prefered_table" value="bar" required  id="bar">
+                    <label class="radio_label" for="bar"><i class="fa-solid fa-martini-glass"></i> Bar Seat</label>
+
+
+                </div>
+
+                <button type="submit" class="booking-button">Reserve now!</button>
+            </form>
+        </div>
+        </div>
     </main>
 
     <!-- Footer -->
