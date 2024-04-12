@@ -107,7 +107,7 @@ nav {
 /* ----------------------- Main Content ----------------------- */
 main {
     /* with empty main section - push footer to bottom */
-    flex: 0 1 auto;
+    flex: 1 0 auto;
     background-color: #264653;
 }
 
@@ -345,9 +345,10 @@ main {
     /* background with transparency */
     background-color: rgb(44, 44, 44, .75);
     color: #ffffff;
+    font-family: 'Changa', sans-serif;
 }
 
-/* ------ Reserve Table page */
+/* ------ Reserve Table page ------ */
 .main-reserve {
     display: flex;
     justify-content: center;
@@ -534,10 +535,6 @@ footer {
 
     .reviews-container>img {
         max-width: none;
-    }
-
-    .review-img-transform:hover {
-        /* transform: scale(2); */
     }
 
     .small-container-whyus {
