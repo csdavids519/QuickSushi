@@ -361,7 +361,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 5px;
-    z-index: 99;
+    z-index: 90;
     background-color: #f4a261;
     width: 100%;
     box-shadow: 4px 4px 4px #3a3a3a;
@@ -381,7 +381,6 @@ main {
 
 .menu_nav_list {
     display: flex;
-    /* justify-content: space-around; */
     list-style: none;
 }
 
@@ -400,7 +399,6 @@ main {
     align-items: center;
     width: 100vw;
 }
-
 
 .menu_container {
     /* position: relative; */
@@ -463,7 +461,6 @@ main {
     color: ffffff;
 }
 
-
 .radio_label {
     padding: 4%;
     background-color: #e9c46a;
@@ -471,7 +468,6 @@ main {
     border: 2px solid black;
     box-shadow: 2px 2px 4px black;
 }
-
 
 .radio_input {
     display: none;
@@ -648,25 +644,6 @@ footer {
         width: 100%;
         font-size: 1.5em;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     /* Footer */
