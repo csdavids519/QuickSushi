@@ -369,7 +369,7 @@ main {
     padding: 5px;
     z-index: 90;
     background-color: #f4a261;
-    width: 100%;
+    width: 100vw;
     box-shadow: 4px 4px 4px #3a3a3a;
 }
 
@@ -381,7 +381,7 @@ main {
     padding: 5px;
     z-index: 90;
     background-color: #f4a261;
-    width: 100%;
+    width: 100vw;
     box-shadow: 4px 4px 4px #3a3a3a;
 }
 
@@ -399,7 +399,16 @@ main {
     font-size: .5em;
 }
 
+.menu_nav_list li :hover{
+    color: black;
+    background-color: #e9c46a;
+    padding: 2px;
+    border: 1px solid #e9c46a;
+    border-radius: 5px;
+}
+
 .image_container {
+    position: relative;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -407,7 +416,6 @@ main {
 }
 
 .menu_container {
-    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -539,7 +547,7 @@ footer {
     .div_logo>a {
         flex: 2;
         text-align: center;
-        font-size: 150%;
+        font-size: 120%;
     }
 
     /*  Nav   */
@@ -566,6 +574,20 @@ footer {
         position: relative;
         top: 30px;
     }
+
+/* ------ Menu page nav bar ------------*/
+
+
+.menu_nav_bar {
+    position: relative;
+    top: 18px;
+    font-size: 24px;
+}
+
+.menu_nav_bar_sticky {
+    font-size: 24px;
+}
+
 
     /* ---- Hero image ---- */
     .hero {
@@ -623,6 +645,13 @@ footer {
         flex-direction: row;
         flex-direction: row-reverse;
     }
+
+
+
+
+
+
+
 
     /* Footer */
 }
