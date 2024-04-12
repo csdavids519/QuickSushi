@@ -356,6 +356,44 @@ main {
     position: relative;
 }
 
+.menu_nav_bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    z-index: 99;
+    background-color: #f4a261;
+    width: 100%;
+    box-shadow: 4px 4px 4px #3a3a3a;
+}
+
+.menu_nav_bar_sticky {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    z-index: 90;
+    background-color: #f4a261;
+    width: 100%;
+    box-shadow: 4px 4px 4px #3a3a3a;
+}
+
+.menu_nav_list {
+    display: flex;
+    /* justify-content: space-around; */
+    list-style: none;
+}
+
+.menu_nav_list a {
+    text-transform: uppercase;
+    margin: 15px;
+    text-decoration: none;
+    color: #2e2b2b;
+    font-weight: bold;
+    font-size: .5em;
+}
+
 .image_container {
     flex-direction: column;
     display: flex;
@@ -363,18 +401,8 @@ main {
     width: 100vw;
 }
 
-.menu_nav_bar {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    /* top: 50px; */
-    z-index: 99;
-    background-color: pink;
-    width: 100%;
-}
 
-.menu-container {
+.menu_container {
     /* position: relative; */
     display: flex;
     flex-direction: column;
@@ -383,37 +411,6 @@ main {
     max-width: 70vw;
     gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------ Reserve Table page ------ */
 .main-reserve {
@@ -553,7 +550,7 @@ footer {
     main {
         /* push main content below nav bar */
         position: relative;
-        top: 10px;
+        top: 30px;
     }
 
     /* ---- Hero image ---- */
@@ -685,4 +682,4 @@ footer {
 
     /*  Main Content  */
 
-    /* Footer */
+    /* Footer *
