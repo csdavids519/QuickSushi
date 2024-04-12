@@ -44,6 +44,10 @@ header {
     padding-left: 20px;
 }
 
+.img_logo-center{
+    display: none;
+}
+
 .div_logo>a {
     text-decoration: none;
     color: inherit;
@@ -518,11 +522,23 @@ footer {
 @media screen and (min-width: 768px) {
     /*  Header  */
 
+    .img_logo{
+        display: none;
+    }
+
+    .img_logo-center{
+        display: inline;
+        position: relative;
+        top: 15px;
+    }
+
+    .div_logo {
+        padding-left: 0px;
+    }
+
     .div_logo>a {
         flex: 2;
         text-align: center;
-        right: 60px;
-        position: relative;
         font-size: 150%;
     }
 
