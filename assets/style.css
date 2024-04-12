@@ -348,6 +348,73 @@ main {
     font-family: 'Changa', sans-serif;
 }
 
+
+
+/* ----------------- Menu page -------------- */
+#menu_header {
+    /* change header to realative to give more screen space */
+    position: relative;
+}
+
+.image_container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.menu_nav_bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* top: 50px; */
+    z-index: 99;
+    background-color: pink;
+    width: 100%;
+}
+
+.menu-container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    column-count: 1;
+    max-width: 70vw;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------ Reserve Table page ------ */
 .main-reserve {
     display: flex;
@@ -363,7 +430,7 @@ main {
     border-radius: 20px;
 }
 
-.div-reserve-form > form > h2 {
+.div-reserve-form>form>h2 {
     text-align: center;
     font-size: 1.5em;
 }
