@@ -28,7 +28,7 @@ header {
     position: sticky;
     top: 0px;
     width: 100%;
-    padding: .5em 2em;
+    /* padding: .5em 2em; */
     z-index: 99;
     font-family: 'Changa', sans-serif;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -41,6 +41,7 @@ header {
     font-size: 90%;
     align-items: center;
     justify-content: space-between;
+    padding-left: 20px;
 }
 
 .div_logo>a {
@@ -102,6 +103,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    padding-right: 20px;
 }
 
 /* ----------------------- Main Content ----------------------- */
