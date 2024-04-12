@@ -44,7 +44,7 @@ header {
     padding-left: 20px;
 }
 
-.img_logo-center{
+.img_logo-center {
     display: none;
 }
 
@@ -399,7 +399,7 @@ main {
     font-size: .5em;
 }
 
-.menu_nav_list li :hover{
+.menu_nav_list li :hover {
     color: black;
     background-color: #e9c46a;
     padding: 2px;
@@ -431,7 +431,14 @@ main {
     align-items: center;
     flex-grow: 1;
     font-family: 'Changa', sans-serif;
+    /* set black background if image fails to load */
+    background-color: #000000;
+    background-image: url(../assets/images/resturantview_dark_600px.png);
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .div-reserve-form {
     background-color: #2a9d8f;
@@ -476,7 +483,8 @@ main {
 }
 
 .radio_label {
-    padding: 4%;
+    width: 40%;
+    text-align: center;
     background-color: #e9c46a;
     border-radius: 40px;
     border: 2px solid black;
@@ -530,11 +538,11 @@ footer {
 @media screen and (min-width: 768px) {
     /*  Header  */
 
-    .img_logo{
+    .img_logo {
         display: none;
     }
 
-    .img_logo-center{
+    .img_logo-center {
         display: inline;
         position: relative;
         top: 15px;
@@ -575,18 +583,18 @@ footer {
         top: 30px;
     }
 
-/* ------ Menu page nav bar ------------*/
+    /* ------ Menu page nav bar ------------*/
 
 
-.menu_nav_bar {
-    position: relative;
-    top: 18px;
-    font-size: 24px;
-}
+    .menu_nav_bar {
+        position: relative;
+        top: 18px;
+        font-size: 24px;
+    }
 
-.menu_nav_bar_sticky {
-    font-size: 24px;
-}
+    .menu_nav_bar_sticky {
+        font-size: 24px;
+    }
 
 
     /* ---- Hero image ---- */
