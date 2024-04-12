@@ -369,7 +369,7 @@ main {
     padding: 5px;
     z-index: 90;
     background-color: #f4a261;
-    width: 100vw;
+    width: 100%;
     box-shadow: 4px 4px 4px #3a3a3a;
 }
 
@@ -381,7 +381,7 @@ main {
     padding: 5px;
     z-index: 90;
     background-color: #f4a261;
-    width: 100vw;
+    width: 100%;
     box-shadow: 4px 4px 4px #3a3a3a;
 }
 
@@ -412,7 +412,7 @@ main {
     flex-direction: column;
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .menu_container {
