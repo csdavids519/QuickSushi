@@ -1,4 +1,4 @@
-# *Quick Sushi*
+ # *Quick Sushi*
 ---
 ## User Stories
 
@@ -22,6 +22,12 @@
     * Featured at the top of the page the logo of the sushi business and the name displayed large and centered in the page.
     * Header is using the company theme text of 'Changa'.
     * The header is also a quick link back to the main home page.
+
+    
+    ![HeaderMobile](assets/documentation/header.png)
+
+    
+    ![HeaderLarge](assets/documentation/header_large.png)
 
 
 
@@ -49,11 +55,16 @@
     * Displays a large collection of customer reviews to show new comers the positive experience others have had. 
     * When mouse hovering over a review image it grows and centers so the user is able to read the text clearly. 
 
+    
+    ![Reviews](assets/documentation/review_section.png)
+
 
 + #### About Us Section
     * displays unique options found at Quick Sushi in a card format with font and a visual style that matches the theme of the restaurant. 
     * On a larger screen this is displayed as horizontal image and text, on smaller screens it adapts a vertical text image alignment to improve readability. 
 
+
+    ![aboutus](assets/documentation/aboutus_section.png)
 
 
 + ### Location Page
@@ -61,10 +72,14 @@
     * A text box is also displayed to show the address in plain text
 
 
+
 + ### Menu Page
     * The menu page displays a long vertical list of all the menu page images.
     * the user is able to jump to different menu topics using the menu nav bar locked at the top of the screen.
     * unique on this page, the header becomes hidden as the user scrolls down to allow for more screen space to read the menu.
+
+    
+    ![MenuNav](assets/documentation/menu_nav.png)
 
 + ### Reserve Table Page
     * This page displays a form for the user to fill out with their necessary information to book a table at the restaurant.
@@ -74,38 +89,45 @@
     * The 'Reserve now!' button submits the data to the restaurant.
 
 ---
-+ #### About us Section
-    * About us section displays unique options found at Quick Sushi. 
-    * This area displays dining options for large groups and other creative options available.
-
----
-+ #### Footer
-
++ ### Footer
     * Displays clickable links for the restaurant social media.
+
+    ![Footer](assets/documentation/footer.png)
 
 
 ## Technologies Used
+
+
+
+
+
+
+
 ---
 ## Design
 
 ### Color Scheme
- ![Color Pallet](assets/documentation/color_pallet.png)
-
  - A dark background with playful colours on top to encourage a fun and clean environment.
  - white text is used to improve readability where necessary. 
 
+![Color Pallet](assets/documentation/color_pallet.png)
+
 
 ### typography
-![Main Font](assets/documentation/main_font.png)
 - Changa Google Font was used as the main font to display an Asian / Japanese setting while still maintaining readability.
 
+![Main Font](assets/documentation/main_font.png)
+
+
 ### Wireframes
-![Wire Frames](assets/documentation/QuickSushi_WireFrame_PDF.pdf)
+See wireframe documentation:
+[Wire Frames](assets/documentation/QuickSushi_WireFrame_PDF.pdf)
 
 ### Testing
 
 
-
+### Bugs / known issues
+* Menu nav bar was not able to use 'sticky' positon type due to browser support, to over come this a secon nav bar is hidden behind the header and comes into view when the user scrolls down. If the user scrolls very slow, it is possible to have two menu nav bars overlapping. 
 
 
 
@@ -124,8 +146,8 @@
 
 
 + #### Media
- * Media images sorced from the Quick Sushi Instagram page, used with permission.
- * Google reviews were sorced from Google Maps. 
+ * Media images sourced from the Quick Sushi Instagram page, used with permission.
+ * Google reviews were sourced from Google Maps. 
 
 
 + #### Tools
