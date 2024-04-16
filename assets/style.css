@@ -331,12 +331,20 @@ main {
     flex-direction: column;
 }
 
+.location-container > h3 {
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 .iframe-location-map {
     position: relative;
     width: 90vw;
     min-height: 30vw;
     max-height: 40vh;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -360,6 +368,14 @@ main {
 #menu_header {
     /* change header to realative to give more screen space */
     position: relative;
+}
+
+.main_menu > h3 {
+    font-family: 'Changa', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .menu_nav_bar {
@@ -657,12 +673,6 @@ footer {
         flex-direction: row;
         flex-direction: row-reverse;
     }
-
-
-
-
-
-
 
 
     /* Footer */
