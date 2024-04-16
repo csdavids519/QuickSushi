@@ -392,11 +392,11 @@ main {
 
 .menu_nav_list a {
     text-transform: uppercase;
-    margin: 15px;
+    margin: 10px;
     text-decoration: none;
     color: #2e2b2b;
     font-weight: bold;
-    font-size: .5em;
+    font-size: 12px;
 }
 
 .menu_nav_list li :hover {
@@ -718,4 +718,5 @@ footer {
 
     /*  Main Content  */
 
-    /* Footer *
+    /* Footer */
+}
