@@ -89,18 +89,18 @@
 ## Design
 
 ### Color Scheme
- ![Color Pallet](documentation/color_pallet.png)
+ ![Color Pallet](assets/documentation/color_pallet.png)
 
  - A dark background with playful colours on top to encourage a fun and clean environment.
  - white text is used to improve readability where necessary. 
 
 
 ### typography
-![Main Font](documentation/main_font.png)
+![Main Font](assets/documentation/main_font.png)
 - Changa Google Font was used as the main font to display an Asian / Japanese setting while still maintaining readability.
 
 ### Wireframes
-![Wire Frames](documentation/QuickSushi_WireFrame_PDF.pdf)
+![Wire Frames](assets/documentation/QuickSushi_WireFrame_PDF.pdf)
 
 ### Testing
 
@@ -124,6 +124,9 @@
 
 
 + #### Media
+ * Media images sorced from the Quick Sushi Instagram page, used with permission.
+ * Google reviews were sorced from Google Maps. 
+
 
 + #### Tools
 
