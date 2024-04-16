@@ -434,7 +434,6 @@ main {
     /* set black background if image fails to load */
     background-color: #000000;
     background-image: url(../assets/images/resturantview_dark_600px.png);
-    /* height: 600px; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -497,6 +496,11 @@ main {
 
 .radio_input:checked+.radio_label {
     background-color: #f4a261;
+}
+
+.booking-form > p {
+    font-size: 70%;
+    margin-top: 5px;
 }
 
 
