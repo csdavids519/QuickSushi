@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 
-/* 
-Color pallet:
-    #e76f51, #f4a261, #e9c46a, #2a9d8f, #264653
-*/
-
 /*  wildcard selector to override default styles adds by the browser  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 /* General style */
 body {
@@ -21,7 +15,6 @@ body {
     /* Generic project styles */
     color: #2e2b2b;
 }
-
 
 /* ----------------------- header ----------------------- */
 header {
@@ -58,7 +51,6 @@ header {
     text-justify: center;
 
 }
-
 
 /* ----------------------- Nav -----------------------  */
 /* Navbar dropdown toggle */
@@ -116,7 +108,6 @@ main {
     flex: 1 0 auto;
     background-color: #264653;
 }
-
 
 .hero {
     display: flex;
@@ -190,7 +181,6 @@ main {
     color: #ffffff;
 }
 
-
 /* ------ Review section ------ */
 .reviews-header {
     padding: 10px 10px;
@@ -233,19 +223,13 @@ main {
 .review-img-transform:hover {
     /* zoom on image and index to top */
     transform: scale(250%);
-    /* move selected image to ceter index to top */
+    /* move selected image to center index to top */
     position: absolute;
     top: 45%;
     z-index: 2;
     box-shadow: 4px 4px 4px black;
     border: 2px solid black;
     border-radius: 10%;
-}
-
-/* keep "main review" image top and center */
-.img-main-reivew {
-    position: absolute;
-    top: 45%;
 }
 
 /* ------   why us section ------ */
@@ -331,7 +315,7 @@ main {
     flex-direction: column;
 }
 
-.location-container > h3 {
+.location-container>h3 {
     font-family: 'Changa', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -362,15 +346,13 @@ main {
     font-family: 'Changa', sans-serif;
 }
 
-
-
 /* ----------------- Menu page -------------- */
 #menu_header {
-    /* change header to realative to give more screen space */
+    /* change header to hide when scrolling to give more screen space */
     position: relative;
 }
 
-.main_menu > h3 {
+.main_menu>h3 {
     font-family: 'Changa', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -454,7 +436,6 @@ main {
     background-size: cover;
 }
 
-
 .div-reserve-form {
     background-color: #2a9d8f;
     padding: 10px;
@@ -514,11 +495,10 @@ main {
     background-color: #f4a261;
 }
 
-.booking-form > p {
+.booking-form>p {
     font-size: 70%;
     margin-top: 5px;
 }
-
 
 /*----------------------- Footer -----------------------  */
 footer {
@@ -538,26 +518,11 @@ footer {
     color: black
 }
 
-
 /*----------------------- Media query -----------------------  */
-
-
-/* ----------Media query: large or landscape phones (576px and up) ----------*/
-@media screen and (min-width: 576px) {
-    /*  Header  */
-
-    /*  Nav   */
-
-    /*  Main Content  */
-
-    /* Footer */
-}
-
-
 /* ---------- Media query: tablets and larger (768px and up) ----------*/
 @media screen and (min-width: 768px) {
-    /*  Header  */
 
+    /*  Header  */
     .img_logo {
         display: none;
     }
@@ -604,8 +569,6 @@ footer {
     }
 
     /* ------ Menu page nav bar ------------*/
-
-
     .menu_nav_bar {
         position: relative;
         top: 18px;
@@ -615,7 +578,6 @@ footer {
     .menu_nav_bar_sticky {
         font-size: 24px;
     }
-
 
     /* ---- Hero image ---- */
     .hero {
@@ -673,23 +635,14 @@ footer {
         flex-direction: row;
         flex-direction: row-reverse;
     }
-
-
-    /* Footer */
 }
 
 /* ---------- Large devices (laptops and desktops, 992px and up) ----------*/
 @media screen and (min-width: 992px) {
-    /*  Header  */
-
-    /*  Nav   */
-
-    /*  Main Content  */
 
     /* ------  Location page ------ */
     .location-container {
         flex-direction: row;
-
     }
 
     .iframe-location-map {
@@ -713,20 +666,4 @@ footer {
         width: 100%;
         font-size: 1.5em;
     }
-
-
-    /* Footer */
-
-}
-
-
-/* all other devices  */
-@media screen and (min-width: 1200px) {
-    /*  Header  */
-
-    /*  Nav   */
-
-    /*  Main Content  */
-
-    /* Footer */
 }
