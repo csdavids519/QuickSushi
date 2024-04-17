@@ -166,15 +166,15 @@ main {
 }
 
 /* heading text style */
-.div_heroaddress>h3,
-.div_herohours>h3 {
+.div_heroaddress>h2,
+.div_herohours>h2 {
     margin-bottom: 4px;
 }
 
 /* common text style */
-.div_herohours>h3,
+.div_herohours>h2,
 .div_herohours>p,
-.div_heroaddress>h3,
+.div_heroaddress>h2,
 .div_heroaddress>p {
     padding: 2px;
     font-size: 80%;
@@ -297,10 +297,9 @@ main {
     font-size: 90%;
 }
 
-.whyus-text>h2,
-.whyus-text-invert>h2 {
+.whyus-text>h3,
+.whyus-text-invert>h3 {
     margin: 5px;
-    text-decoration: underline;
 }
 
 .whyus-image {
@@ -315,7 +314,7 @@ main {
     flex-direction: column;
 }
 
-.location-container>h3 {
+.location-container>h2 {
     font-family: 'Changa', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -352,7 +351,7 @@ main {
     position: relative;
 }
 
-.main_menu>h3 {
+.main_menu>h2 {
     font-family: 'Changa', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -411,6 +410,7 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .menu_container {
@@ -503,7 +503,8 @@ main {
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
-    background-color: #2a9d8f
+    background-color: #2a9d8f;
+    margin-top: 30px
 }
 
 .sociallinks {
@@ -610,9 +611,9 @@ footer {
     }
 
     /* common text style */
-    .div_herohours>h3,
+    .div_herohours>h2,
     .div_herohours>p,
-    .div_heroaddress>h3,
+    .div_heroaddress>h2,
     .div_heroaddress>p {
         font-size: 100%;
     }
