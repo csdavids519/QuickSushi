@@ -519,6 +519,11 @@ footer {
     color: black
 }
 
+.sociallinks i:hover {
+    border-bottom: 4px solid #f4a261;
+    color: #f4a261;
+}
+
 /*----------------------- Media query -----------------------  */
 /* ---------- Media query: tablets and larger (768px and up) ----------*/
 @media screen and (min-width: 768px) {
