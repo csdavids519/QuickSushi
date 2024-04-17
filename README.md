@@ -19,8 +19,8 @@
 ## Features
 
 + ### Header
-    * Featured at the top of the page the logo of the sushi business and the name displayed large and centered in the page.
-    * Header is using the company theme text of 'Changa'.
+    * Featured at the top of the page logo of the sushi business and the name is displayed large and centered on the page.
+    * The header uses the company theme text of 'Changa'.
     * The header is also a quick link back to the main home page.
 
     
@@ -33,7 +33,7 @@
 
 + ### Navbar
     * Provides links to move between pages.
-    * On mobile devices this is a collapsed drop-down selection to conserve screen space. 
+    * On mobile devices, this is a collapsed drop-down selection to conserve screen space. 
     * This heading area is displayed at the top of the page even when the user scrolls down so the page links are always available. 
     * Navbar on the 'Menu' page hides as the user scrolls down to allow for more screen real-estate to view the menu images.
 
@@ -47,12 +47,12 @@
 + #### Hero Section
     * On large screen devices a fixed image displaying the interior of the restaurant is displayed.
     * On smaller screen devices a fixed image displaying assorted sushi rolls is displayed.
-    * Image is overlayed with information about restaurant hours and location
-    * Center of the hero image is a link to jump to the 'Reserve Table' page 
+    * Image is overlayed with information about restaurant hours and location.
+    * Center of the hero image is a link to jump to the 'Reserve Table' page. 
 
 
 + #### Review Section
-    * Displays a large collection of customer reviews to show new comers the positive experience others have had. 
+    * Displays a large collection of customer reviews to show newcomers the positive experience others have had. 
     * When mouse hovering over a review image it grows and centers so the user is able to read the text clearly. 
 
     
@@ -82,7 +82,7 @@
     ![MenuNav](assets/documentation/menu_nav.png)
 
 + ### Reserve Table Page
-    * This page displays a form for the user to fill out with their necessary information to book a table at the restaurant.
+    * This page displays a form for the user to fill out with the necessary information to book a table at the restaurant.
     * Each field with an '*' is required.
     * Each field checks the input data matches the format that was requested.
     * Booth Table or Bar Seat radio buttons allow the user to choose where they want to sit, this is an optional choice.
@@ -107,7 +107,7 @@
 ## Design
 
 ### Color Scheme
- - A dark background with playful colours on top to encourage a fun and clean environment.
+ - A dark background with playful colors on top encourages a fun and clean environment.
  - white text is used to improve readability where necessary. 
 
 ![Color Pallet](assets/documentation/color_pallet.png)
@@ -127,21 +127,22 @@ See wireframe documentation:
 
 
 ### Bugs / known issues
-* Menu nav bar was not able to use 'sticky' positon type due to browser support, to over come this a secon nav bar is hidden behind the header and comes into view when the user scrolls down. If the user scrolls very slow, it is possible to have two menu nav bars overlapping. 
+* Menu nav bar was not able to use 'sticky' position type due to browser support, to overcome this a second nav bar is hidden behind the header and comes into view when the user scrolls down. If the user scrolls very slow, it is possible to have two menu nav bars overlapping. 
 
 
 
 
 ## Future improvements
- * Add more interactive menu page.
+ * Add a more interactive menu page.
  * Stager 'review' section review images, and animate to randomly display as the user scrolls past.
-
+ * improve home page preformance using different file types for images.
+ * Animate the user reviews section scale transition to move more slowly for improved view experience.
 
 ---
 ## Credits
 
 + #### Content
- * the code for the social media links and the mobile drop down navigation menu was heavily influenced by the Code Institute [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
+ * the code for the social media links and the mobile drop-down navigation menu was heavily influenced by the Code Institute [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
 
 
 
