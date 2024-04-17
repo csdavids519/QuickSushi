@@ -431,7 +431,7 @@ main {
     font-family: 'Changa', sans-serif;
     /* set black background if image fails to load */
     background-color: #000000;
-    background-image: url(../assets/images/resturantview_dark_600px.png);
+    background-image: url(../assets/images/restaurantview_dark_600px.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -589,7 +589,7 @@ footer {
     .hero {
         /* set black background if image fails to load */
         background-color: #000000;
-        background-image: url(../assets/images/resturantview_dark_600px.png);
+        background-image: url(../assets/images/restaurantview_dark_600px.png);
         height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
