@@ -97,11 +97,13 @@
 
 ## Technologies Used
 
-
-
-
-
-
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [Balsamiq](https://balsamiq.com/) was used to make wireframe design.
+- [VSCode](https://code.visualstudio.com/) was used as the code editor.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [SourceTree](https://sourcetree.com) was used to manage the version control.
+- [GIMP](https://www.gimp.org/) was used to edit and resize images.
 
 ---
 ## Design
@@ -146,14 +148,12 @@ See wireframe documentation:
  * the code for the social media links and the mobile drop-down navigation menu was heavily influenced by the Code Institute [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
 
 
-
 + #### Media
  * Media images sourced from the Quick Sushi Instagram page, used with permission.
  * Google reviews were sourced from Google Maps. 
 
 
-+ #### Tools
-
----
-
 ## Acknowledgments
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Who has been a knowledgeable and encouraging mentor on this project.
+- [Web Dev Simplified] (https://www.youtube.com/@WebDevSimplified) and [Kevin Powell](https://www.youtube.com/@KevinPowell) from YouTube for their quick and helpful CSS instruction videos.
+- Rothanna and Teang Sim, the owners of Quick Sushi for permission to use their restaurant as the subject of this project.
