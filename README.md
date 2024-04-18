@@ -110,6 +110,8 @@
 - Google Dev Tools was used for website testing and debug.
 - Google Light House was used for website testing.
 - [Am I responsive](https://ui.dev/amiresponsive) was used to generate an image of the site on different screen sizes.
+- [Markup Validation Service](https://validator.w3.org/) Was used to validate the HTML code.
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) Was used to validate the CSS code.
 
 ---
 ## Design
@@ -158,6 +160,21 @@ See wireframe documentation:
 ![Light House Menu](assets/documentation/lighthouse_menu.png)
 
 ![Light House Reserve](assets/documentation/lighthouse_reserve.png)
+
+
+
+### Code Validation Tests 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
