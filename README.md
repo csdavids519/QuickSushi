@@ -1,4 +1,4 @@
- # *Quick Sushi*
+# *Quick Sushi*
 ---
 ## User Stories
 
@@ -95,7 +95,7 @@
 
 
 ### Reserve Table Response Page
- -  once the user has sucessfully enterend in the form data, they will be sent to a confermation page that has a link to return back to the home page.
+ -  once the user has successfully entered in the form data, they will be sent to a confirmation page that has a link to return back to the home page.
 
      ![ReserveTableResponse](assets/documentation/bookingresponse.png)
 
@@ -109,7 +109,7 @@
 - [GIMP](https://www.gimp.org/) was used to edit and resize images.
 - Google Dev Tools was used for website testing and debug.
 - Google Light House was used for website testing.
-- [Am I responsive](https://ui.dev/amiresponsive) was used to gernerate an image of the site on differnet screen sizes.
+- [Am I responsive](https://ui.dev/amiresponsive) was used to generate an image of the site on different screen sizes.
 
 ---
 ## Design
@@ -129,13 +129,13 @@
 
 ### Wireframes
 See wireframe documentation:
-[Wire Frames](assets/documentation/QuickSushi_WireFrame_PDF.pdf)
+[Wire Frames](assets/documentation/quicksushi_wireframe.pdf)
 
 
 ---
 ## Testing
  - testing the responsiveness of the website Google Chrome dev tools was used. 
- - An image of the differnt screen sizes was created with [Am I Responsive](https://ui.dev/amiresponsive).
+ - An image of the different screen sizes was created with [Am I Responsive](https://ui.dev/amiresponsive).
 
 ![AmIResponsive](assets/documentation/am_i_responsive.png)
 
@@ -187,5 +187,5 @@ See wireframe documentation:
 
 ## Acknowledgments
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Who has been a knowledgeable and encouraging mentor on this project.
-- [Web Dev Simplified] (https://www.youtube.com/@WebDevSimplified) and [Kevin Powell](https://www.youtube.com/@KevinPowell) from YouTube for their quick and helpful CSS instruction videos.
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) and [Kevin Powell](https://www.youtube.com/@KevinPowell) from YouTube for their quick and helpful CSS instruction videos.
 - Rothanna and Teang Sim, the owners of Quick Sushi for permission to use their restaurant as the subject of this project.
