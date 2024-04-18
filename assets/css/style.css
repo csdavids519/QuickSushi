@@ -308,12 +308,7 @@ main {
 }
 
 /* ----------------- Location page -------------- */
-.location-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.location-container>h2 {
+.main-location>h2 {
     font-family: 'Changa', sans-serif;
     color: #ffffff;
     font-size: 30px;
@@ -321,11 +316,15 @@ main {
     padding-left: 20px;
 }
 
+.location-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .iframe-location-map {
     position: relative;
     width: 90vw;
-    min-height: 30vw;
-    max-height: 40vh;
+    min-height: 30vh;
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
