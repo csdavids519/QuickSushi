@@ -112,7 +112,7 @@ main {
 .hero {
     display: flex;
     justify-content: center;
-    background-image: url(../assets/images/pexels-cottonbro-studio-3298179.jpg);
+    background-image: url(../../assets/images/pexels-cottonbro-studio-3298179.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -500,11 +500,66 @@ main {
     margin-top: 5px;
 }
 
+.main_reserve_response {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* set black background if image fails to load */
+    background-color: #000000;
+    background-image: url(../../assets/images/restaurantview_dark_600px.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_reserve_response {
+    position: relative;
+    height: 20vh;
+    width: 70vw;
+    max-width: 500px;
+    min-width: 220px;
+    max-height: 200px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #2a9d8f;
+    font-family: 'Changa', sans-serif;
+    font-weight: bold;
+}
+
+.div_reserve_response p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110%;
+    min-width: 200px;
+}
+
+.response_button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #2e2b2b;
+    background-color: #e9c46a;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.response_button:hover {
+    font-weight: bolder;
+    background-color: #f4a261;
+}
+
 /*----------------------- Footer -----------------------  */
 footer {
     position: relative;
     background-color: #2a9d8f;
-    margin-top: 30px
 }
 
 .sociallinks {
