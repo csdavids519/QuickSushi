@@ -137,7 +137,6 @@ main {
 
 .reservebutton:hover {
     font-weight: bolder;
-    color: #ffffff;
     background-color: #f4a261;
 }
 
@@ -466,9 +465,12 @@ main {
     padding: 10px 20px;
     font-size: 100%;
     background-color: #e76f51;
-    color: #ffffff;
     border-radius: 30px;
     box-shadow: 2px 2px 4px black;
+}
+
+.booking-button:hover {
+    border: 2px solid #f4a261;
 }
 
 .div-radio-buttons {
@@ -485,6 +487,10 @@ main {
     border-radius: 40px;
     border: 2px solid black;
     box-shadow: 2px 2px 4px black;
+}
+
+.radio_label:hover {
+    border: 2px solid #f4a261;
 }
 
 .radio_input {
@@ -512,6 +518,7 @@ main {
     background-size: cover;
 }
 
+/* ------ Booking response page ------  */
 .div_reserve_response {
     position: relative;
     height: 20vh;
