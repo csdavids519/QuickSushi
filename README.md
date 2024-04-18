@@ -15,8 +15,7 @@
 -	Contact information 
 -	Open hours information
 
-
-
+---
 ## Features
 
  ### Header
@@ -37,7 +36,7 @@
 - Navbar on the 'Menu' page hides as the user scrolls down to allow for more screen real-estate to view the menu images.
 
 
-+ ### Footer
+ ### Footer
 - Displays clickable links for the restaurant social media.
 
 ![Footer](assets/documentation/footer.png)
@@ -99,6 +98,8 @@
 
      ![ReserveTableResponse](assets/documentation/bookingresponse.png)
 
+---
+
 ## Technologies Used
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
@@ -123,7 +124,7 @@
 ![Color Pallet](assets/documentation/color_pallet.png)
 
 
-### typography
+### Typography
 - Changa Google Font was used as the main font to display an Asian / Japanese setting while still maintaining readability.
 
 ![Main Font](assets/documentation/main_font.png)
@@ -163,8 +164,10 @@ See wireframe documentation:
 
 
 
-### HTML Code Validation Tests 
-- See below the results of the HTML validator.
+### Code Validation Tests 
+- See below the results of the HTML and CSS validators.
+
+
 ![HTML Validation Home](assets/documentation/checkhtml_index.png)
 
 ![HTML Validation Location](assets/documentation/checkhtml_location.png)
@@ -172,9 +175,6 @@ See wireframe documentation:
 ![HTML Validation Menu](assets/documentation/checkhtml_menu.png)
 
 ![HTML Validation Reserve](assets/documentation/checkhtml_reserve.png)
-
-
-- See below the results of the CSS validator.
 
 ![CSS Validation](assets/documentation/css_validation.png)
 
@@ -193,16 +193,16 @@ See wireframe documentation:
 ---
 ## Credits
 
- #### Content
- - the code for the social media links and the mobile drop-down navigation menu was heavily influenced by the Code Institute [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
+ ### Content
+ - Code for the social media links and the mobile drop-down navigation menu was heavily influenced by the Code Institute [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
 
 
- #### Media
+ ### Media
  - Media images sourced from the Quick Sushi Instagram page, used with permission.
  - Google reviews were sourced from Google Maps. 
 
 
-## Acknowledgments
+### Acknowledgments
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Who has been a knowledgeable and encouraging mentor on this project.
 - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) and [Kevin Powell](https://www.youtube.com/@KevinPowell) from YouTube for their quick and helpful CSS instruction videos.
-- Rothanna and Teang Sim, the owners of Quick Sushi for permission to use their restaurant as the subject of this project.
+- Rothanna and Teang Sim, owners of Quick Sushi for permission to use their restaurant as the subject of this project.
