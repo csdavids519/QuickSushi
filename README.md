@@ -16,6 +16,7 @@
 *	Open hours information
 
 
+
 ## Features
 
  ### Header
@@ -23,11 +24,8 @@
     * The header uses the company theme text of 'Changa'.
     * The header is also a quick link back to the main home page.
 
-    
-    ![HeaderMobile](assets/documentation/header.png)
-
-    
-    ![HeaderLarge](assets/documentation/header_large.png)
+ ![HeaderMobile](assets/documentation/header.png)
+ ![HeaderLarge](assets/documentation/header_large.png)
 
 
  ### Navbar
@@ -61,7 +59,7 @@
     * When mouse hovering over a review image it grows and centers so the user is able to read the text clearly. 
 
     
-    ![Reviews](assets/documentation/review_section.png)
+   ![Reviews](assets/documentation/review_section.png)
 
 
  #### About Us Section
@@ -82,8 +80,7 @@
     * the user is able to jump to different menu topics using the menu nav bar locked at the top of the screen.
     * unique on this page, the header becomes hidden as the user scrolls down to allow for more screen space to read the menu.
 
-    
-    ![MenuNav](assets/documentation/menu_nav.png)
+![MenuNav](assets/documentation/menu_nav.png)
 
  ### Reserve Table Page
     * This page displays a form for the user to fill out with the necessary information to book a table at the restaurant.
@@ -92,7 +89,7 @@
     * Booth Table or Bar Seat radio buttons allow the user to choose where they want to sit, this is an optional choice.
     * The 'Reserve now!' button submits the data to the restaurant.
 
-    ![ReserveTableForum](assets/documentation/booktableform.png)
+ ![ReserveTableForum](assets/documentation/booktableform.png)
 
 
 ### Reserve Table Response Page
