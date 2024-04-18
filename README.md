@@ -129,13 +129,14 @@ See wireframe documentation:
 ### Bugs / known issues
 * Menu nav bar was not able to use 'sticky' position type due to browser support, to overcome this a second nav bar is hidden behind the header and comes into view when the user scrolls down. If the user scrolls very slow, it is possible to have two menu nav bars overlapping. 
 
+* The reserve table radio buttons are optional but once clicked it's not possible to make no selection, this could be fixed in the future with javascript. The other option would have been to add a third 'none' radio button but it was decided this would upset the aesthetic.
 
 
 
 ## Future improvements
  * Add a more interactive menu page.
  * Stager 'review' section review images, and animate to randomly display as the user scrolls past.
- * improve home page preformance using different file types for images.
+ * improve home page performance using different file types for images.
  * Animate the user reviews section scale transition to move more slowly for improved view experience.
 
 ---
