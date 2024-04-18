@@ -163,20 +163,20 @@ See wireframe documentation:
 
 
 
-### Code Validation Tests 
+### HTML Code Validation Tests 
+- See below the results of the HTML validator.
+![HTML Validation Home](assets/documentation/checkhtml_index.png)
+
+![HTML Validation Location](assets/documentation/checkhtml_location.png)
+
+![HTML Validation Menu](assets/documentation/checkhtml_menu.png)
+
+![HTML Validation Reserve](assets/documentation/checkhtml_reserve.png)
 
 
+- See below the results of the CSS validator.
 
-
-
-
-
-
-
-
-
-
-
+![CSS Validation](assets/documentation/css_validation.png)
 
 
 ### Bugs / known issues
