@@ -148,6 +148,7 @@ See wireframe documentation:
  - All forms have been tested only correct formatted inputs are accepted.
  - All forms have been tested that all required data is completed before the user can submit. 
  - Screen size responsiveness was tested on multiple devices and using Google Dev Tools.
+ - All pages have been checked in multiple browser types including Chrome, Firefox, Edge
 
 
 ### Light House Tests

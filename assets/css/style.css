@@ -105,6 +105,7 @@ main {
     /* with empty main section - push footer to bottom */
     flex: 1 0 auto;
     background-color: #264653;
+    padding-bottom: 40px;
 }
 
 .hero {
