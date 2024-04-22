@@ -1,5 +1,23 @@
 # *Quick Sushi*
 ---
+![QuickSushiLogo](documentation/logo_image_med.png)
+
+The Quick Sushi website allows people to find all relevant information and quickly book a table at the Quick Sushi restaurant. 
+
+The live site can be found at this [LINK - Quick Sushi](https://csdavids519.github.io/QuickSushi/)
+
+
+### Deployment to GitHub Pages
+
+- The live site was deployed to GitHub pages. 
+
+- The repository on Git Hub can be found at this link: [GitHub repository](https://github.com/csdavids519/QuickSushi)
+
+
+![AmIResponsive](documentation/am_i_responsive.png)
+
+
+---
 ## User Stories
 
 ### First Time Visitor Goals:
@@ -23,10 +41,10 @@
 - The header uses the company theme text of 'Changa'.
 - The header is also a quick link back to the main home page.
 
- ![HeaderMobile](assets/documentation/header.png)
+ ![HeaderMobile](documentation/header.png)
 
 
- ![HeaderLarge](assets/documentation/header_large.png)
+ ![HeaderLarge](documentation/header_large.png)
 
 
  ### Navbar
@@ -39,7 +57,7 @@
  ### Footer
 - Displays clickable links for the restaurant social media.
 
-![Footer](assets/documentation/footer.png)
+![Footer](documentation/footer.png)
 
 
  ### Home Page
@@ -60,7 +78,7 @@
 - When mouse hovering over a review image it grows and centers so the user is able to read the text clearly. 
 
     
-![Reviews](assets/documentation/review_section.png)
+![Reviews](documentation/review_section.png)
 
 
  #### About Us Section
@@ -68,7 +86,7 @@
 - On a larger screen this is displayed as horizontal image and text, on smaller screens it adapts a vertical text image alignment to improve readability. 
 
 
-    ![aboutus](assets/documentation/aboutus_section.png)
+![aboutus](documentation/aboutus_section.png)
 
 
  ### Location Page
@@ -81,7 +99,7 @@
 - the user is able to jump to different menu topics using the menu nav bar locked at the top of the screen.
 - unique on this page, the header becomes hidden as the user scrolls down to allow for more screen space to read the menu.
 
-![MenuNav](assets/documentation/menu_nav.png)
+![MenuNav](documentation/menu_nav.png)
 
  ### Reserve Table Page
 - This page displays a form for the user to fill out with the necessary information to book a table at the restaurant.
@@ -90,13 +108,13 @@
 - Booth Table or Bar Seat radio buttons allow the user to choose where they want to sit, this is an optional choice.
 - The 'Reserve now!' button submits the data to the restaurant.
 
- ![ReserveTableForum](assets/documentation/booktableform.png)
+ ![ReserveTableForum](documentation/booktableform.png)
 
 
 ### Reserve Table Response Page
  -  once the user has successfully entered in the form data, they will be sent to a confirmation page that has a link to return back to the home page.
 
-     ![ReserveTableResponse](assets/documentation/bookingresponse.png)
+![ReserveTableResponse](documentation/bookingresponse.png)
 
 ---
 
@@ -108,7 +126,7 @@
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [SourceTree](https://sourcetree.com) was used to manage the version control.
 - [GIMP](https://www.gimp.org/) was used to edit and resize images.
-- Google Dev Tools was used for website testing and debug.
+- Google Dev Tools was used for website testing.
 - Google Light House was used for website testing.
 - [Am I responsive](https://ui.dev/amiresponsive) was used to generate an image of the site on different screen sizes.
 - [Markup Validation Service](https://validator.w3.org/) Was used to validate the HTML code.
@@ -121,18 +139,18 @@
  - A dark background with playful colors on top encourages a fun and clean environment.
  - white text is used to improve readability where necessary. 
 
-![Color Pallet](assets/documentation/color_pallet.png)
+![Color Pallet](documentation/color_pallet.png)
 
 
 ### Typography
 - Changa Google Font was used as the main font to display an Asian / Japanese setting while still maintaining readability.
 
-![Main Font](assets/documentation/main_font.png)
+![Main Font](documentation/main_font.png)
 
 
 ### Wireframes
 See wireframe documentation:
-[Wire Frames](assets/documentation/quicksushi_wireframe.pdf)
+[Wire Frames](documentation/quicksushi_wireframe.pdf)
 
 
 ---
@@ -140,7 +158,10 @@ See wireframe documentation:
  - testing the responsiveness of the website Google Chrome dev tools was used. 
  - An image of the different screen sizes was created with [Am I Responsive](https://ui.dev/amiresponsive).
 
-![AmIResponsive](assets/documentation/am_i_responsive.png)
+
+
+ ![Browser Tests](documentation/browser_tests.png)
+
 
 ### Manual Tests
  - All buttons and links were tested on multiple devices.
@@ -155,13 +176,13 @@ See wireframe documentation:
 - See below for Chrome Light House test results on each web page.
 
 
-![Light House Home](assets/documentation/lighthouse_index.png)
+![Light House Home](documentation/lighthouse_index.png)
 
-![Light House Location](assets/documentation/lighthouse_location.png)
+![Light House Location](documentation/lighthouse_location.png)
 
-![Light House Menu](assets/documentation/lighthouse_menu.png)
+![Light House Menu](documentation/lighthouse_menu.png)
 
-![Light House Reserve](assets/documentation/lighthouse_reserve.png)
+![Light House Reserve](documentation/lighthouse_reserve.png)
 
 
 
@@ -169,20 +190,20 @@ See wireframe documentation:
 - See below the results of the HTML and CSS validators.
 
 
-![HTML Validation Home](assets/documentation/checkhtml_index.png)
+![HTML Validation Home](documentation/checkhtml_index.png)
 
-![HTML Validation Location](assets/documentation/checkhtml_location.png)
+![HTML Validation Location](documentation/checkhtml_location.png)
 
-![HTML Validation Menu](assets/documentation/checkhtml_menu.png)
+![HTML Validation Menu](documentation/checkhtml_menu.png)
 
-![HTML Validation Reserve](assets/documentation/checkhtml_reserve.png)
+![HTML Validation Reserve](documentation/checkhtml_reserve.png)
 
-![CSS Validation](assets/documentation/css_validation.png)
+![CSS Validation](documentation/css_validation.png)
 
 
 ### Resolved Bugs / Known Issues
 - Menu nav bar was not able to use 'sticky' position type due to browser support, to overcome this a second nav bar is hidden behind the header and comes into view when the user scrolls down. If the user scrolls very slow, it is possible to have two menu nav bars overlapping. This can be fixed in the future with JavaScript.
- 
+
 - The reserve table radio buttons are optional but once clicked it's not possible to make no selection, this could be fixed in the future with javascript. The other option would have been to add a third 'none' radio button but it was decided this would upset the aesthetic.
 
 ### Open Bugs / Issues
@@ -203,7 +224,7 @@ See wireframe documentation:
 
 
  ### Media
- - Media images sourced from the Quick Sushi Instagram page, used with permission.
+ - Media images sourced from the Quick Sushi Instagram page, used with permission. [Instagram](https://www.instagram.com/quick_sushi_/)
  - Google reviews were sourced from Google Maps. 
 
 
@@ -211,3 +232,4 @@ See wireframe documentation:
 - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) Who has been a knowledgeable and encouraging mentor on this project.
 - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) and [Kevin Powell](https://www.youtube.com/@KevinPowell) from YouTube for their quick and helpful CSS instruction videos.
 - Rothanna and Teang Sim, owners of Quick Sushi for permission to use their restaurant as the subject of this project.
+- [GitHub](https://pages.github.com/) Pages for free hosting of the live site. 
