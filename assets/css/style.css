@@ -397,12 +397,13 @@ main {
     color: #2e2b2b;
     font-weight: bold;
     font-size: 12px;
+    border: 1px solid #f4a261;
+    border-radius: 5px;
 }
 
 .menu_nav_list li :hover {
     color: black;
     background-color: #e9c46a;
-    padding: 2px;
     border: 1px solid #e9c46a;
     border-radius: 5px;
 }
