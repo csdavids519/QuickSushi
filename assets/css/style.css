@@ -230,6 +230,12 @@ main {
     border-radius: 10%;
 }
 
+/* keep "main review" image top and center */
+.img-main-reivew {
+    position: absolute;
+    top: 45%;
+}
+
 /* ------   why us section ------ */
 .whyus-header {
     padding: 10px 10px;
