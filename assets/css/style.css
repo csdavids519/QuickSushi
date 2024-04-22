@@ -686,6 +686,7 @@ footer {
     .reviews-header,
     .whyus-header {
         font-size: 2em;
+        text-align: center;
     }
 
     .reviews-container>img {
