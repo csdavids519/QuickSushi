@@ -229,6 +229,7 @@ See wireframe documentation:
 
  ### Media
  - Media images sourced from the Quick Sushi Instagram page, used with permission. [Instagram](https://www.instagram.com/quick_sushi_/)
+ - Mobile home page sushi background is sourced from [Pexels.com](https://www.pexels.com/)
  - Google reviews were sourced from Google Maps. 
 
 
