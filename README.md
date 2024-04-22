@@ -4,7 +4,7 @@
 
 The Quick Sushi website allows people to find all relevant information and quickly book a table at the Quick Sushi restaurant. 
 
-The live site can be found at this [LINK - Quick Sushi](https://csdavids519.github.io/QuickSushi/)
+The live site can be found here: [Quick Sushi](https://csdavids519.github.io/QuickSushi/)
 
 
 ### Deployment to GitHub Pages
