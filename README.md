@@ -2,36 +2,40 @@
 ---
 ![QuickSushiLogo](documentation/logo_image_med.png)
 
-The Quick Sushi website allows people to find all relevant information and quickly book a table at the Quick Sushi restaurant. 
+The Quick Sushi website allows people to find all relevant restaurant information such as hours and location information. For first-time visitors to the restaurant, the website displays a welcoming feeling enticing sushi lovers to give Quick Sushi a try. For the more advanced sushi lovers, a full menu can be found on the menu page to quickly understand what is on offer at Quick Sushi. Users also have the option to book a table quickly via the 'Reserve Table' page.
 
 The live site can be found here: [Quick Sushi](https://csdavids519.github.io/QuickSushi/)
+
+![AmIResponsive](documentation/am_i_responsive.png)
 
 
 ### Deployment to GitHub Pages
 
 - The live site was deployed to GitHub pages. 
 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 - The repository on Git Hub can be found at this link: [GitHub repository](https://github.com/csdavids519/QuickSushi)
-
-
-![AmIResponsive](documentation/am_i_responsive.png)
 
 
 ---
 ## User Stories
 
 ### First Time Visitor Goals:
--	Basic restaurant information is very quick to find
--	Location of additional information links are clear and easy to find
--	Contact information is easy to find
+-	Basic restaurant information is very quick to find.
+-	Location of additional information links are clear and easy to find.
+-	Contact information is easy to find.
 
 ### Returning Visitor Goals:
 -	Able to find further information such as why choose us, other customer reviews, restaurant location information
 
 ### Frequent Visitor Goals:
--	Easy to find menu and price information
--	Contact information 
--	Open hours information
+-	Easy to find menu and price information.
+-	Contact information.
+-	Open hours information.
 
 ---
 ## Features
